@@ -1,0 +1,1974 @@
+{
+    "entryId": "tweet-2014020848089223440",
+    "sortIndex": "2015775075218751488",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2014020848089223440",
+                    "has_birdwatch_notes": false,
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjo1MDI1NzY4Ng==",
+                                "rest_id": "50257686",
+                                "affiliates_highlighted_label": {},
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1981623478580047872/sdqRguxU_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Wed Jun 24 09:03:21 +0000 2009",
+                                    "name": "Dylan",
+                                    "screen_name": "DylanCalluy"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": true
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "Photographer & Videographer | Contact: hello@dylancalluy.com | Presets: https://t.co/8Bviceo7P0",
+                                    "entities": {
+                                        "description": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "bio.site/dylancalluy",
+                                                    "expanded_url": "https://bio.site/dylancalluy",
+                                                    "url": "https://t.co/8Bviceo7P0",
+                                                    "indices": [
+                                                        72,
+                                                        95
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "url": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "bio.site/dylancalluy",
+                                                    "expanded_url": "https://bio.site/dylancalluy",
+                                                    "url": "https://t.co/8Bviceo7P0",
+                                                    "indices": [
+                                                        0,
+                                                        23
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 35794,
+                                    "followers_count": 36003,
+                                    "friends_count": 1208,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 240,
+                                    "media_count": 3668,
+                                    "normal_followers_count": 36003,
+                                    "pinned_tweet_ids_str": [
+                                        "2014020848089223440"
+                                    ],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/50257686/1674564172",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 37674,
+                                    "translator_type": "none",
+                                    "url": "https://t.co/8Bviceo7P0",
+                                    "want_retweets": false,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": "België"
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": true
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "professional": {
+                                    "rest_id": "1461441162812739592",
+                                    "professional_type": "Creator",
+                                    "category": [
+                                        {
+                                            "id": 1041,
+                                            "name": "Digital Creator",
+                                            "icon_name": "IconBriefcaseStroke"
+                                        }
+                                    ]
+                                },
+                                "profile_bio": {
+                                    "description": "Photographer & Videographer | Contact: hello@dylancalluy.com | Presets: https://t.co/8Bviceo7P0"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": false
+                                },
+                                "verification": {
+                                    "verified": false
+                                },
+                                "profile_description_language": "en"
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2014020848089223440"
+                        ],
+                        "editable_until_msecs": "1769018563000",
+                        "is_edit_eligible": false,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "3500095",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                    "article": {
+                        "article_results": {
+                            "result": {
+                                "rest_id": "2012619109993709568",
+                                "id": "QXJ0aWNsZUVudGl0eToyMDEyNjE5MTA5OTkzNzA5NTY4",
+                                "title": "How to fix your iPhone Photography in 1 day",
+                                "preview_text": "The Ultimate iPhone Photography Settings Guide\nMost People Are Blind To Their Own Mediocrity\nYou have a $1,000 camera in your pocket.\nA device that can capture images that would have required $10,000",
+                                "cover_media": {
+                                    "id": "QXBpTWVkaWE6DAAFCgABG/M1P1JXYAYKAAIAAAAAAv7fFgAA",
+                                    "media_key": "3_2014012004445413382",
+                                    "media_id": "2014012004445413382",
+                                    "media_info": {
+                                        "__typename": "ApiImage",
+                                        "original_img_height": 500,
+                                        "original_img_width": 1250,
+                                        "original_img_url": "https://pbs.twimg.com/media/G_M1P1JXYAY5wjQ.jpg",
+                                        "color_info": {
+                                            "palette": [
+                                                {
+                                                    "percentage": 44.85,
+                                                    "rgb": {
+                                                        "blue": 186,
+                                                        "green": 203,
+                                                        "red": 214
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 27.07,
+                                                    "rgb": {
+                                                        "blue": 33,
+                                                        "green": 28,
+                                                        "red": 28
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 15.04,
+                                                    "rgb": {
+                                                        "blue": 118,
+                                                        "green": 109,
+                                                        "red": 103
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 8.41,
+                                                    "rgb": {
+                                                        "blue": 74,
+                                                        "green": 101,
+                                                        "red": 139
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 1.32,
+                                                    "rgb": {
+                                                        "blue": 18,
+                                                        "green": 43,
+                                                        "red": 85
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "content_state": {
+                                    "blocks": [
+                                        {
+                                            "key": "fclie",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The Ultimate iPhone Photography Settings Guide",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "fmer2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most People Are Blind To Their Own Mediocrity",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "a2jkv",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You have a $1,000 camera in your pocket.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6fbir",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "A device that can capture images that would have required $10,000 worth of equipment 10 years ago.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "85ap7",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "And you're using it like it's a disposable camera from 2005.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "92slc",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "That's not an insult. It's an observation.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3kr1h",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most people don't even know their iPhone has settings. They point, shoot, and wonder why their photos look the same as everyone else's.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dcoeo",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Then they blame the camera. Or the lighting. Or their lack of \"natural talent.\"",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3e2ra",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The truth? You're working against your own tools.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "e8eb3",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "I've taken over 10,000 photographs on iPhone. Not because I'm obsessed with photography (though I am), but because I understand something most people miss:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "d98jb",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 32,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Mastery isn't sexy. Systems are.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6msg8",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The difference between your photos and the ones that stop the scroll isn't talent. It's not luck. It's not even necessarily skill.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "j1p",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "It's settings.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "4vaph",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Boring, unsexy, one-time settings that 99% of people never touch.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dsoa3",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This guide isn't for everyone. If you want quick tips and tricks, close this tab. If you want to \"hack\" your way to better photos without understanding the fundamentals, this isn't for you.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5uj09",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "But if you want to build a foundation that transforms every single photo you take for the rest of your life?",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1tctg",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Keep reading.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5kiju",
+                                            "data": {},
+                                            "entityRanges": [
+                                                {
+                                                    "key": 0,
+                                                    "length": 9,
+                                                    "offset": 70
+                                                }
+                                            ],
+                                            "inlineStyleRanges": [],
+                                            "text": "(Want to see what's possible with proper settings + editing? Check my Instagram where I share my daily work from these exact settings.)",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2f5rm",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The Problem With Default Settings",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "7bugb",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Apple doesn't optimize for you.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "12ouq",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "They optimize for the masses.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "coirs",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The default iPhone camera settings are designed for your mom, your coworker, and the teenager taking selfies at Starbucks. They're built for convenience, compatibility, and the lowest common denominator.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "omgh",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "And that makes sense. Apple sells to everyone.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "fj9je",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "But you're not everyone.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "769mp",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "So why are you still using mass-market settings?",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "bhnlp",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 3,
+                                                    "offset": 86,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "Here's what most people don't realize: every default setting is a decision Apple made for you. And every decision they made serves their goals, not yours.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "c0n4c",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Your goal? Create stunning, consistent, professional-quality images.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6o1ml",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Their goal? Make sure Grandma can take a photo without thinking.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "aqf5e",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "These goals don't align.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "b8ja0",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "So we're going to rebuild your camera settings from scratch. Not because it's fun (it's not), but because it's the foundation everything else is built on.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2qh4f",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "No foundation, no results.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "ca4bm",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Let's build.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "n6qo",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "1. Formats: Stop Hemorrhaging Quality",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "4r8st",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 27,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Settings → Camera → Formats",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dsjji",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "First decision: High Efficiency or Most Compatible.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "73nhu",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most people choose Most Compatible because it sounds... safe. Familiar. They've been shooting JPEGs since their first digital camera, so why change?",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "4hcml",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Here's why: you're leaving quality on the table.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "9ous7",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 31,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Choose High Efficiency. Always.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1h88v",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "HEIF (High Efficiency Image Format) gives you better image quality at half the file size. Same visual fidelity. Half the storage. This isn't a trade-off. It's just... better.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3ck14",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "\"But what about compatibility?\"",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "a352j",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Stop. This is the excuse people make when they haven't tested it themselves.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5n6ja",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Your iPhone automatically converts HEIF to JPEG when you share photos. Email, AirDrop, Instagram, X all of it converts seamlessly. You get the storage benefits without any compatibility issues.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5cbj8",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Unless you're directly transferring photos to a Windows XP computer via USB cable (why?), there's no reason to choose Most Compatible.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2all2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This is your first lesson in optimization: most \"concerns\" are imaginary obstacles created by people who never actually tested the alternative.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "bh0f6",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Apple ProRAW: Your Editing Safety Net",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "apt9a",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Below formats, you'll see Apple ProRAW.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "177sp",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 11,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Turn it on.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "51cqk",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "ProRAW captures the raw sensor data while preserving Apple's computational photography. You get editing flexibility without sacrificing Smart HDR, Deep Fusion, or Night mode.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1fso4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "But here's the key: don't shoot everything in ProRAW.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8dka4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Each ProRAW image is 25-75MB. Shoot 100 photos and you've used 2.5-7.5GB of storage. That's unsustainable for casual shooting.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1fevn",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 23,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Use ProRAW selectively:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3p80v",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Landscapes you plan to edit afterwards",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "erfne",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Portraits that deserve serious post-processing",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "fv3b8",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "High-contrast scenes where you need maximum dynamic range",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "lc1e",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Any shot where you might want to completely reshape the color grade later",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "bi9fu",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 21,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Don't use ProRAW for:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "eusbf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Quick social content",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "dkkb9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Snapshots",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "cp8po",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Anything you won't edit",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "9aa81",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Burst mode (it doesn't work anyway)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "7djl2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Enable it in settings, then toggle it on/off in the camera app as needed. This gives you the power when you need it without the storage bloat when you don't.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "59p7",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "2. Photographic Styles: The Misunderstood Game-Changer",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "8p0c4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 39,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Settings → Camera → Photographic Styles",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "56o6d",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This is where most people get it wrong.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5ij2h",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "They think Photographic Styles are filters. Instagram presets for your camera. Something you can slap on in post if you want.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8njsk",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "They're not.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8tdu2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 6,
+                                                    "offset": 19,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "Styles are applied during the computational photography process. Before the image exists. They affect how your iPhone's neural engine processes tone mapping, color decisions, and contrast in real-time.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "d6ulp",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "A filter is makeup. A Style is bone structure.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "b29u1",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You can change makeup. You can't change bone structure.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "jtv5",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Apple gives you:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "f45lu",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Standard (boring)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "3r2dd",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Rich Contrast (my default)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "2lhbb",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Vibrant (oversaturated, usually)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "82agj",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Warm (golden hour simulator)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "baa3d",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Cool (blue-shifted, moody)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "5029f",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Each style has customizable tone and warmth sliders.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "c78lf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Here's how to choose:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "a7f35",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 36,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Shoot the same scene in every style. Seriously. Don't just pick one based on the description. Actually test them. Compare the results in your photo library. See how dramatically they affect shadows, highlights, and color.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "cn0k9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "I use Standard for 100% of my work because it gives me the most neutral colors, highlights and shadows. It's a strong foundation that leaves room for my presets in post.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "50t24",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 2,
+                                                    "offset": 11,
+                                                    "style": "Italic"
+                                                },
+                                                {
+                                                    "length": 2,
+                                                    "offset": 30,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "But that's my choice based on my style.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "7eebv",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Your signature look will emerge from testing, not from copying someone else's settings.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8q0jf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "One warning: unlike ProRAW which you toggle per shot, Photographic Styles apply to everything until you change them. Choose deliberately.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "7iv9j",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "3. Preserve Settings: Build Systems, Not Habits",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "4omm4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 37,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Settings → Camera → Preserve Settings",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "822r9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This section looks boring.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dvrc0",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "It is boring.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "di4rv",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "It's also one of the most important settings you'll change.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "a5uqd",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "By default, your iPhone resets certain settings every time you close the camera. You open it, it's back to Photo mode with default exposure. You have to manually switch to Portrait. Manually adjust exposure compensation. Every. Single. Time.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "437gd",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This isn't just annoying. It's a creativity killer.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1n5jc",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Every decision you have to remake is energy you're not spending on composition, light, or the moment.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dku2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 14,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Turn these on:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "anl6f",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Camera Mode",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "d10bb",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Creative Controls",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "4ebs8",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Exposure Adjustment",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "ak3kd",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Night Mode",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "3k0ub",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "ProRAW",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "fimo4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Now your camera remembers. You set it once, it stays set.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "fs7nj",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 4,
+                                                    "offset": 39,
+                                                    "style": "Italic"
+                                                },
+                                                {
+                                                    "length": 7,
+                                                    "offset": 56,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "This is the difference between working with systems and against them.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "as525",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most people rely on willpower and habits. \"I'll just remember to switch to Portrait mode.\" \"I'll adjust exposure every time.\"",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "4vp32",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "That works until it doesn't. Until you miss the shot because you forgot. Until you get lazy. Until you're in a hurry.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "adi33",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Systems remove the decision. You configure it once. It works forever.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1lio0",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This is the same principle that makes successful people successful. They don't rely on motivation. They build systems that make the right choice automatic.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "19mkr",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Your iPhone camera should work the same way.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "b4sng",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 117,
+                                                    "offset": 0,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "These settings are what I use for every shot in my portfolio. Same phone you have. Same camera. Different foundation.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5pirf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "4. Grid & Level: The Composition Cheat Code",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "6ko1g",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 17,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Settings → Camera",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2eltt",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Turn on:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "856q",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Grid",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "6p3jf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Level (if you have iPhone 14+)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "94kq2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The grid gives you rule of thirds. Nine sections. Four intersection points.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "9g69g",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You've heard this before. Everyone has. Rule of thirds is Photography 101.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "d7eu4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "But here's what they don't tell you:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2c0vb",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The grid isn't about following rules. It's about making faster decisions.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "98e4i",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 8,
+                                                    "offset": 38,
+                                                    "style": "Italic"
+                                                },
+                                                {
+                                                    "length": 6,
+                                                    "offset": 75,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "When you have visual guides, you stop thinking about composition and start seeing it. You're not calculating thirds in your head. You're aligning. Balancing. Checking.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3jsu9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "It becomes automatic.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "38bvf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "And when composition becomes automatic, you can focus on everything else. Light. Emotion. The decisive moment.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "cu2to",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The Level tool shows when your phone is perfectly horizontal. Critical for architecture and landscapes. Essential for any shot where a crooked horizon ruins the image.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5i021",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 29,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Turn off: Mirror Front Camera",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1visj",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Unless you want reversed text and unnatural-looking selfies, disable this. Your front camera should capture reality, not a mirror image.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8ce8m",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This setting exists because people are used to seeing themselves in mirrors. But everyone else sees the non-mirrored version of you. So your selfies should match what others see, not what you see.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "85naf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Small detail. Big difference.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "85du3",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "5. Macro Control: The Auto-Trigger Problem",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "66ju4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 33,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Settings → Camera → Macro Control",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "as371",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Available on iPhone 13 Pro and newer.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2gkl5",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "By default, your iPhone automatically switches to macro mode when you're within ~5 inches of a subject.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dgjj2",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Sounds helpful.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6i6q5",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "It's not.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6vp0g",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Auto macro triggers when you don't want it. You're photographing someone's face up close? Macro kicks in, gives you an unnaturally sharp, unflattering result. You're shooting food? It focuses on the wrong element.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3pas5",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 22,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Turn Macro Control ON.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dkkpm",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Now you get a manual toggle. A small flower icon appears when macro is available. Tap to enable. Tap to disable.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3nuqs",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You decide. Not the algorithm.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "4um3j",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This is a recurring theme: Apple's automation serves the average user. When you want control, you have to manually disable the automation.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5j0d3",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most people never realize they have this option. They just accept the auto behavior and wonder why their close-up shots sometimes look wrong.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "cirme",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You're not most people.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1eui3",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "6. Smart HDR: When Automation Fails Your Vision",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "6d3vv",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 17,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Settings → Camera",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "609cs",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Smart HDR should stay on for 90% of your photography.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "37bku",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "It's Apple's computational photography doing what it does best: merging multiple exposures into a single image with better dynamic range than any single frame could achieve.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "c4pbl",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "But there are moments when Smart HDR conflicts with your creative vision.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6v4ot",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 17,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Turn it off when:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "l694",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You're shooting silhouettes (you want pure black shadows, not recovered detail)",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "f0n4h",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You want high-contrast, dramatic images",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "75c10",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You're photographing something where you need manual highlight/shadow control",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "bhgd8",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You're shooting ProRAW and planning extensive editing",
+                                            "type": "unordered-list-item"
+                                        },
+                                        {
+                                            "key": "7k2hc",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 3,
+                                                    "offset": 126,
+                                                    "style": "Italic"
+                                                }
+                                            ],
+                                            "text": "Smart HDR makes decisions for you. Usually good decisions. But \"good\" is optimized for what Apple thinks looks best, not what you want.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "992pe",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "When your vision diverges from the algorithm's, you need to override it.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "aqdt3",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "I leave it on by default. But I know exactly when to toggle it off. That knowledge comes from understanding what Smart HDR actually does, not just blindly accepting it.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "b6kng",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "7. The Settings Most People Never Touch",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "cm1vj",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "These aren't in the main camera settings, but they matter:",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "30pem",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 13,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Record Video: 4K at 60fps (if you have the storage)",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "forae",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Higher resolution. Higher frame rate. More flexibility in post. No reason to shoot lower unless you're running out of space.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8e7td",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 14,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Record Slo-mo: 1080p at 240fps",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "7j924",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "More frames = smoother slow motion. Simple math.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "5r2qk",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 14,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "View Full HDR: ON",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3jl9k",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "See your photos with the full dynamic range your iPhone captured. Why would you want less?",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "eomvq",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 16,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Lens Correction: ON",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "a6hm",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Fixes ultra-wide lens distortion automatically. Unless you specifically want that distorted look, keep this enabled.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "dbmkk",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The Foundation vs. The Cathedral",
+                                            "type": "header-two"
+                                        },
+                                        {
+                                            "key": "bko7g",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Settings are not the destination.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "bpsv9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "They're the foundation.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "evluu",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You can't build a cathedral on sand. But a foundation alone isn't a cathedral either.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "90k8j",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "These settings give you consistency. Quality. Control. They eliminate variables. They let you focus on light, composition, emotion, story.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2dj9r",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "But settings don't create art.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "aefa9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Your eye creates art. Your understanding of color theory creates art. Your editing workflow creates art.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3es48",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "I've spent months developing my color science. My presets. My approach to iPhone photography. These settings are step one. The foundation.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "2njq5",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "What you build on top of that foundation? That's where your unique voice emerges.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3iec4",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most people skip the foundation and wonder why their work feels unstable. Why their photos are inconsistent. Why some shots look amazing and others fall flat.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "ffr4l",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "The foundation matters.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "csf62",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Get it right once. Never think about it again.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "e3uns",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Then spend your creative energy where it actually matters: on the work.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8r1hf",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "What Happens Next",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "3fv53",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You have two choices.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "4kfa6",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 9,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Choice 1: Close this tab, forget everything you read, keep shooting with default settings, and wonder why your photos still look the same as everyone else's.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "7r4gd",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 9,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Choice 2: Spend 10 minutes configuring these settings right now. Today. Then shoot for a week and notice how your workflow changes. How your consistency improves. How you stop fighting your camera and start working with it.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "ccks0",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "One choice requires nothing. The other requires 10 minutes of focused action.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "1r4d1",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Most people will choose nothing.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "c1sf7",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "That's why most people get average results.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "6bpb9",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "You're still here, which means you're not most people.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "f1mvg",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "So prove it.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "d0njd",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Go configure your settings. Shoot for a week. Pay attention to what changes.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "f2s33",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Then come back for part two, where we'll dive into advanced techniques, editing workflows, and the color science that turns good photos into signature work.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "4j3bh",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "This is just the beginning.",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "ek7kb",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [
+                                                {
+                                                    "length": 10,
+                                                    "offset": 0,
+                                                    "style": "Bold"
+                                                }
+                                            ],
+                                            "text": "Want more?",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "97l5l",
+                                            "data": {
+                                                "urls": [
+                                                    {
+                                                        "fromIndex": 24,
+                                                        "toIndex": 49,
+                                                        "text": "instagram.com/dylancalluy"
+                                                    },
+                                                    {
+                                                        "fromIndex": 61,
+                                                        "toIndex": 76,
+                                                        "text": "dylancalluy.com"
+                                                    }
+                                                ]
+                                            },
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "→ Follow my daily work: instagram.com/dylancalluy\n→ Website: dylancalluy.com\n→ iPhone presets dropping soon (follow for early access)",
+                                            "type": "unstyled"
+                                        },
+                                        {
+                                            "key": "8v22p",
+                                            "data": {},
+                                            "entityRanges": [],
+                                            "inlineStyleRanges": [],
+                                            "text": "Questions? Tag me on X or drop a comment below.",
+                                            "type": "unstyled"
+                                        }
+                                    ],
+                                    "entityMap": [
+                                        {
+                                            "key": "0",
+                                            "value": {
+                                                "type": "LINK",
+                                                "mutability": "Mutable",
+                                                "data": {
+                                                    "url": "https://instagram.com/dylancalluy"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "media_entities": [],
+                                "lifecycle_state": {
+                                    "modified_at_secs": 1769014963
+                                },
+                                "metadata": {
+                                    "first_published_at_secs": 1769014963
+                                }
+                            }
+                        }
+                    },
+                    "grok_analysis_button": true,
+                    "legacy": {
+                        "bookmark_count": 14878,
+                        "bookmarked": false,
+                        "created_at": "Wed Jan 21 17:02:43 +0000 2026",
+                        "conversation_id_str": "2014020848089223440",
+                        "display_text_range": [
+                            0,
+                            23
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [
+                                {
+                                    "display_url": "x.com/i/article/2012…",
+                                    "expanded_url": "http://x.com/i/article/2012619109993709568",
+                                    "url": "https://t.co/1Be3h013Te",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ],
+                            "user_mentions": []
+                        },
+                        "favorite_count": 4402,
+                        "favorited": false,
+                        "full_text": "https://t.co/1Be3h013Te",
+                        "is_quote_status": false,
+                        "lang": "zxx",
+                        "possibly_sensitive": false,
+                        "possibly_sensitive_editable": true,
+                        "quote_count": 17,
+                        "reply_count": 49,
+                        "retweet_count": 332,
+                        "retweeted": false,
+                        "user_id_str": "50257686",
+                        "id_str": "2014020848089223440"
+                    },
+                    "quick_promote_eligibility": {
+                        "eligibility": "IneligibleNotProfessional"
+                    }
+                }
+            },
+            "tweetDisplayType": "SelfThread"
+        },
+        "clientEventInfo": {
+            "component": "tweet",
+            "element": "tweet"
+        }
+    }
+}

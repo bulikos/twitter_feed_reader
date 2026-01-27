@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.ipynb_checkpoints
+
+# Virtual environments
+.venv
+
+# Sensitive notebook
+ntbs/stored_curls.ipynb
+
+# Environment variables
+.env
+.DS_Store
+
+
+# App specific
+/scripts
+/app/data

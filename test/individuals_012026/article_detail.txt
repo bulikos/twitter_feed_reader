@@ -1,0 +1,187 @@
+The Ultimate iPhone Photography Settings Guide
+Most People Are Blind To Their Own Mediocrity
+You have a $1,000 camera in your pocket.
+A device that can capture images that would have required $10,000 worth of equipment 10 years ago.
+And you're using it like it's a disposable camera from 2005.
+That's not an insult. It's an observation.
+Most people don't even know their iPhone has settings. They point, shoot, and wonder why their photos look the same as everyone else's.
+Then they blame the camera. Or the lighting. Or their lack of "natural talent."
+The truth? You're working against your own tools.
+I've taken over 10,000 photographs on iPhone. Not because I'm obsessed with photography (though I am), but because I understand something most people miss:
+Mastery isn't sexy. Systems are.
+The difference between your photos and the ones that stop the scroll isn't talent. It's not luck. It's not even necessarily skill.
+It's settings.
+Boring, unsexy, one-time settings that 99% of people never touch.
+This guide isn't for everyone. If you want quick tips and tricks, close this tab. If you want to "hack" your way to better photos without understanding the fundamentals, this isn't for you.
+But if you want to build a foundation that transforms every single photo you take for the rest of your life?
+Keep reading.
+(Want to see what's possible with proper settings + editing? Check my Instagram where I share my daily work from these exact settings.)
+The Problem With Default Settings
+Apple doesn't optimize for you.
+They optimize for the masses.
+The default iPhone camera settings are designed for your mom, your coworker, and the teenager taking selfies at Starbucks. They're built for convenience, compatibility, and the lowest common denominator.
+And that makes sense. Apple sells to everyone.
+But you're not everyone.
+So why are you still using mass-market settings?
+Here's what most people don't realize: every default setting is a decision Apple made for you. And every decision they made serves their goals, not yours.
+Your goal? Create stunning, consistent, professional-quality images.
+Their goal? Make sure Grandma can take a photo without thinking.
+These goals don't align.
+So we're going to rebuild your camera settings from scratch. Not because it's fun (it's not), but because it's the foundation everything else is built on.
+No foundation, no results.
+Let's build.
+1. Formats: Stop Hemorrhaging Quality
+Settings → Camera → Formats
+First decision: High Efficiency or Most Compatible.
+Most people choose Most Compatible because it sounds... safe. Familiar. They've been shooting JPEGs since their first digital camera, so why change?
+Here's why: you're leaving quality on the table.
+Choose High Efficiency. Always.
+HEIF (High Efficiency Image Format) gives you better image quality at half the file size. Same visual fidelity. Half the storage. This isn't a trade-off. It's just... better.
+"But what about compatibility?"
+Stop. This is the excuse people make when they haven't tested it themselves.
+Your iPhone automatically converts HEIF to JPEG when you share photos. Email, AirDrop, Instagram, X all of it converts seamlessly. You get the storage benefits without any compatibility issues.
+Unless you're directly transferring photos to a Windows XP computer via USB cable (why?), there's no reason to choose Most Compatible.
+This is your first lesson in optimization: most "concerns" are imaginary obstacles created by people who never actually tested the alternative.
+Apple ProRAW: Your Editing Safety Net
+Below formats, you'll see Apple ProRAW.
+Turn it on.
+ProRAW captures the raw sensor data while preserving Apple's computational photography. You get editing flexibility without sacrificing Smart HDR, Deep Fusion, or Night mode.
+But here's the key: don't shoot everything in ProRAW.
+Each ProRAW image is 25-75MB. Shoot 100 photos and you've used 2.5-7.5GB of storage. That's unsustainable for casual shooting.
+Use ProRAW selectively:
+Landscapes you plan to edit afterwards
+Portraits that deserve serious post-processing
+High-contrast scenes where you need maximum dynamic range
+Any shot where you might want to completely reshape the color grade later
+Don't use ProRAW for:
+Quick social content
+Snapshots
+Anything you won't edit
+Burst mode (it doesn't work anyway)
+Enable it in settings, then toggle it on/off in the camera app as needed. This gives you the power when you need it without the storage bloat when you don't.
+2. Photographic Styles: The Misunderstood Game-Changer
+Settings → Camera → Photographic Styles
+This is where most people get it wrong.
+They think Photographic Styles are filters. Instagram presets for your camera. Something you can slap on in post if you want.
+They're not.
+Styles are applied during the computational photography process. Before the image exists. They affect how your iPhone's neural engine processes tone mapping, color decisions, and contrast in real-time.
+A filter is makeup. A Style is bone structure.
+You can change makeup. You can't change bone structure.
+Apple gives you:
+Standard (boring)
+Rich Contrast (my default)
+Vibrant (oversaturated, usually)
+Warm (golden hour simulator)
+Cool (blue-shifted, moody)
+Each style has customizable tone and warmth sliders.
+Here's how to choose:
+Shoot the same scene in every style. Seriously. Don't just pick one based on the description. Actually test them. Compare the results in your photo library. See how dramatically they affect shadows, highlights, and color.
+I use Standard for 100% of my work because it gives me the most neutral colors, highlights and shadows. It's a strong foundation that leaves room for my presets in post.
+But that's my choice based on my style.
+Your signature look will emerge from testing, not from copying someone else's settings.
+One warning: unlike ProRAW which you toggle per shot, Photographic Styles apply to everything until you change them. Choose deliberately.
+3. Preserve Settings: Build Systems, Not Habits
+Settings → Camera → Preserve Settings
+This section looks boring.
+It is boring.
+It's also one of the most important settings you'll change.
+By default, your iPhone resets certain settings every time you close the camera. You open it, it's back to Photo mode with default exposure. You have to manually switch to Portrait. Manually adjust exposure compensation. Every. Single. Time.
+This isn't just annoying. It's a creativity killer.
+Every decision you have to remake is energy you're not spending on composition, light, or the moment.
+Turn these on:
+Camera Mode
+Creative Controls
+Exposure Adjustment
+Night Mode
+ProRAW
+Now your camera remembers. You set it once, it stays set.
+This is the difference between working with systems and against them.
+Most people rely on willpower and habits. "I'll just remember to switch to Portrait mode." "I'll adjust exposure every time."
+That works until it doesn't. Until you miss the shot because you forgot. Until you get lazy. Until you're in a hurry.
+Systems remove the decision. You configure it once. It works forever.
+This is the same principle that makes successful people successful. They don't rely on motivation. They build systems that make the right choice automatic.
+Your iPhone camera should work the same way.
+These settings are what I use for every shot in my portfolio. Same phone you have. Same camera. Different foundation.
+4. Grid & Level: The Composition Cheat Code
+Settings → Camera
+Turn on:
+Grid
+Level (if you have iPhone 14+)
+The grid gives you rule of thirds. Nine sections. Four intersection points.
+You've heard this before. Everyone has. Rule of thirds is Photography 101.
+But here's what they don't tell you:
+The grid isn't about following rules. It's about making faster decisions.
+When you have visual guides, you stop thinking about composition and start seeing it. You're not calculating thirds in your head. You're aligning. Balancing. Checking.
+It becomes automatic.
+And when composition becomes automatic, you can focus on everything else. Light. Emotion. The decisive moment.
+The Level tool shows when your phone is perfectly horizontal. Critical for architecture and landscapes. Essential for any shot where a crooked horizon ruins the image.
+Turn off: Mirror Front Camera
+Unless you want reversed text and unnatural-looking selfies, disable this. Your front camera should capture reality, not a mirror image.
+This setting exists because people are used to seeing themselves in mirrors. But everyone else sees the non-mirrored version of you. So your selfies should match what others see, not what you see.
+Small detail. Big difference.
+5. Macro Control: The Auto-Trigger Problem
+Settings → Camera → Macro Control
+Available on iPhone 13 Pro and newer.
+By default, your iPhone automatically switches to macro mode when you're within ~5 inches of a subject.
+Sounds helpful.
+It's not.
+Auto macro triggers when you don't want it. You're photographing someone's face up close? Macro kicks in, gives you an unnaturally sharp, unflattering result. You're shooting food? It focuses on the wrong element.
+Turn Macro Control ON.
+Now you get a manual toggle. A small flower icon appears when macro is available. Tap to enable. Tap to disable.
+You decide. Not the algorithm.
+This is a recurring theme: Apple's automation serves the average user. When you want control, you have to manually disable the automation.
+Most people never realize they have this option. They just accept the auto behavior and wonder why their close-up shots sometimes look wrong.
+You're not most people.
+6. Smart HDR: When Automation Fails Your Vision
+Settings → Camera
+Smart HDR should stay on for 90% of your photography.
+It's Apple's computational photography doing what it does best: merging multiple exposures into a single image with better dynamic range than any single frame could achieve.
+But there are moments when Smart HDR conflicts with your creative vision.
+Turn it off when:
+You're shooting silhouettes (you want pure black shadows, not recovered detail)
+You want high-contrast, dramatic images
+You're photographing something where you need manual highlight/shadow control
+You're shooting ProRAW and planning extensive editing
+Smart HDR makes decisions for you. Usually good decisions. But "good" is optimized for what Apple thinks looks best, not what you want.
+When your vision diverges from the algorithm's, you need to override it.
+I leave it on by default. But I know exactly when to toggle it off. That knowledge comes from understanding what Smart HDR actually does, not just blindly accepting it.
+7. The Settings Most People Never Touch
+These aren't in the main camera settings, but they matter:
+Record Video: 4K at 60fps (if you have the storage)
+Higher resolution. Higher frame rate. More flexibility in post. No reason to shoot lower unless you're running out of space.
+Record Slo-mo: 1080p at 240fps
+More frames = smoother slow motion. Simple math.
+View Full HDR: ON
+See your photos with the full dynamic range your iPhone captured. Why would you want less?
+Lens Correction: ON
+Fixes ultra-wide lens distortion automatically. Unless you specifically want that distorted look, keep this enabled.
+The Foundation vs. The Cathedral
+Settings are not the destination.
+They're the foundation.
+You can't build a cathedral on sand. But a foundation alone isn't a cathedral either.
+These settings give you consistency. Quality. Control. They eliminate variables. They let you focus on light, composition, emotion, story.
+But settings don't create art.
+Your eye creates art. Your understanding of color theory creates art. Your editing workflow creates art.
+I've spent months developing my color science. My presets. My approach to iPhone photography. These settings are step one. The foundation.
+What you build on top of that foundation? That's where your unique voice emerges.
+Most people skip the foundation and wonder why their work feels unstable. Why their photos are inconsistent. Why some shots look amazing and others fall flat.
+The foundation matters.
+Get it right once. Never think about it again.
+Then spend your creative energy where it actually matters: on the work.
+What Happens Next
+You have two choices.
+Choice 1: Close this tab, forget everything you read, keep shooting with default settings, and wonder why your photos still look the same as everyone else's.
+Choice 2: Spend 10 minutes configuring these settings right now. Today. Then shoot for a week and notice how your workflow changes. How your consistency improves. How you stop fighting your camera and start working with it.
+One choice requires nothing. The other requires 10 minutes of focused action.
+Most people will choose nothing.
+That's why most people get average results.
+You're still here, which means you're not most people.
+So prove it.
+Go configure your settings. Shoot for a week. Pay attention to what changes.
+Then come back for part two, where we'll dive into advanced techniques, editing workflows, and the color science that turns good photos into signature work.
+This is just the beginning.
+Want more?
+→ Follow my daily work: instagram.com/dylancalluy
+→ Website: dylancalluy.com
+→ iPhone presets dropping soon (follow for early access)
+Questions? Tag me on X or drop a comment below.

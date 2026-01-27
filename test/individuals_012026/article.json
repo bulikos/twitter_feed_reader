@@ -1,0 +1,249 @@
+{
+    "entryId": "tweet-2015469163792204226",
+    "sortIndex": "2015474966740336627",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2015469163792204226",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjo5NTQwMTU5Mjg5MjQwNTc2MDE=",
+                                "rest_id": "954015928924057601",
+                                "affiliates_highlighted_label": {
+                                    "label": {
+                                        "url": {
+                                            "url": "https://twitter.com/MetaLeX_Labs",
+                                            "urlType": "DeepLink"
+                                        },
+                                        "badge": {
+                                            "url": "https://pbs.twimg.com/profile_images/1878143326542614528/zi799uOu_bigger.jpg"
+                                        },
+                                        "description": "MetaLeX",
+                                        "userLabelType": "BusinessLabel",
+                                        "userLabelDisplayType": "Badge"
+                                    }
+                                },
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/2007469035944804353/FPZ6AdKi_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Thu Jan 18 15:41:37 +0000 2018",
+                                    "name": "_gabrielShapir0",
+                                    "screen_name": "lex_node"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": true
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "cyberpunk lawyer & founder |\n\nMetaLeX \uD83D\uDD96\uD83D\uDE0E |\n\ncheck my highlights tab",
+                                    "entities": {
+                                        "description": {
+                                            "urls": []
+                                        },
+                                        "url": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "cyberraise.metalex.tech",
+                                                    "expanded_url": "https://cyberraise.metalex.tech/",
+                                                    "url": "https://t.co/djfvP4QCKA",
+                                                    "indices": [
+                                                        0,
+                                                        23
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 133950,
+                                    "followers_count": 76883,
+                                    "friends_count": 5359,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 1603,
+                                    "media_count": 5719,
+                                    "normal_followers_count": 76883,
+                                    "pinned_tweet_ids_str": [
+                                        "2013645866280632329"
+                                    ],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/954015928924057601/1751965498",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 73059,
+                                    "translator_type": "none",
+                                    "url": "https://t.co/djfvP4QCKA",
+                                    "want_retweets": true,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": "Cybertron"
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": false
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "profile_bio": {
+                                    "description": "cyberpunk lawyer & founder |\n\nMetaLeX \uD83D\uDD96\uD83D\uDE0E |\n\ncheck my highlights tab"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": true
+                                },
+                                "verification": {
+                                    "verified": false
+                                },
+                                "profile_description_language": "en"
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2015469163792204226"
+                        ],
+                        "editable_until_msecs": "1769363868000",
+                        "is_edit_eligible": false,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "1130",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                    "article": {
+                        "article_results": {
+                            "result": {
+                                "rest_id": "2015463401833558016",
+                                "id": "QXJ0aWNsZUVudGl0eToyMDE1NDYzNDAxODMzNTU4MDE2",
+                                "title": "Crypto is Getting Coopted by 'Fintech' - My Thoughts & How I'll Keep Fighting ",
+                                "preview_text": "obviously on some level we all know that custodial stablecoin issuers effectively now control crypto \nas Frank Herbert had Paul Atreides menacingly say in Dune, \"He who can destroy a thing, controls a",
+                                "cover_media": {
+                                    "id": "QXBpTWVkaWE6DAAFCgABG/hdoJaXEAAKAAINPVhuyZUwAQAA",
+                                    "media_key": "3_2015463777550929920",
+                                    "media_id": "2015463777550929920",
+                                    "media_info": {
+                                        "__typename": "ApiImage",
+                                        "original_img_height": 360,
+                                        "original_img_width": 900,
+                                        "original_img_url": "https://pbs.twimg.com/media/G_hdoJaXEAAe775.jpg",
+                                        "color_info": {
+                                            "palette": [
+                                                {
+                                                    "percentage": 92.83,
+                                                    "rgb": {
+                                                        "blue": 33,
+                                                        "green": 23,
+                                                        "red": 21
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 5.7,
+                                                    "rgb": {
+                                                        "blue": 105,
+                                                        "green": 103,
+                                                        "red": 107
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 1.16,
+                                                    "rgb": {
+                                                        "blue": 45,
+                                                        "green": 39,
+                                                        "red": 64
+                                                    }
+                                                },
+                                                {
+                                                    "percentage": 0.15,
+                                                    "rgb": {
+                                                        "blue": 125,
+                                                        "green": 128,
+                                                        "red": 103
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "lifecycle_state": {
+                                    "modified_at_secs": 1769360491
+                                },
+                                "metadata": {
+                                    "first_published_at_secs": 1769360268
+                                }
+                            }
+                        }
+                    },
+                    "grok_analysis_button": true,
+                    "legacy": {
+                        "bookmark_count": 8,
+                        "bookmarked": false,
+                        "created_at": "Sun Jan 25 16:57:48 +0000 2026",
+                        "conversation_id_str": "2015469163792204226",
+                        "display_text_range": [
+                            0,
+                            23
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [
+                                {
+                                    "display_url": "x.com/i/article/2015…",
+                                    "expanded_url": "http://x.com/i/article/2015463401833558016",
+                                    "url": "https://t.co/arCq84JnYo",
+                                    "indices": [
+                                        0,
+                                        23
+                                    ]
+                                }
+                            ],
+                            "user_mentions": []
+                        },
+                        "favorite_count": 22,
+                        "favorited": false,
+                        "full_text": "https://t.co/arCq84JnYo",
+                        "is_quote_status": false,
+                        "lang": "zxx",
+                        "possibly_sensitive": false,
+                        "possibly_sensitive_editable": true,
+                        "quote_count": 2,
+                        "reply_count": 6,
+                        "retweet_count": 2,
+                        "retweeted": false,
+                        "user_id_str": "954015928924057601",
+                        "id_str": "2015469163792204226"
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABAoCAAEKAAKAAAAAAAEBAAoACbNS43Ayn3zGCAALAAAADQ8ADAMAAAAgAQACCgQAQAAAAQEAAAAAgAAAAAAAAAAAAAABAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}

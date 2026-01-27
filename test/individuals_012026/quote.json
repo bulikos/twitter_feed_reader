@@ -1,0 +1,317 @@
+{
+    "entryId": "tweet-2015465678287802757",
+    "sortIndex": "2015474966740336619",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2015465678287802757",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjo1NjY1MzQ4ODY=",
+                                "rest_id": "566534886",
+                                "affiliates_highlighted_label": {
+                                    "label": {
+                                        "url": {
+                                            "url": "https://twitter.com/SteakhouseFi",
+                                            "urlType": "DeepLink"
+                                        },
+                                        "badge": {
+                                            "url": "https://pbs.twimg.com/profile_images/1937810644964716545/LDiOF-l0_bigger.jpg"
+                                        },
+                                        "description": "Steakhouse Financial",
+                                        "userLabelType": "BusinessLabel",
+                                        "userLabelDisplayType": "Badge"
+                                    }
+                                },
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1939674327873396736/TlfIZMiO_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Sun Apr 29 16:35:26 +0000 2012",
+                                    "name": "Hasu⚡️\uD83E\uDD16",
+                                    "screen_name": "hasufl"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": false
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": false,
+                                    "default_profile_image": false,
+                                    "description": "strategy steward @ flashbots \nadvisor @ lido, steakhouse",
+                                    "entities": {
+                                        "description": {
+                                            "urls": []
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 61110,
+                                    "followers_count": 250965,
+                                    "friends_count": 1338,
+                                    "has_custom_timelines": false,
+                                    "is_translator": false,
+                                    "listed_count": 5264,
+                                    "media_count": 882,
+                                    "normal_followers_count": 250965,
+                                    "pinned_tweet_ids_str": [],
+                                    "possibly_sensitive": false,
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 31938,
+                                    "translator_type": "none",
+                                    "want_retweets": true,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": ""
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": false
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "profile_bio": {
+                                    "description": "strategy steward @ flashbots \nadvisor @ lido, steakhouse"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": true
+                                },
+                                "verification": {
+                                    "verified": false
+                                },
+                                "profile_description_language": "en"
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2015465678287802757"
+                        ],
+                        "editable_until_msecs": "1769363037000",
+                        "is_edit_eligible": true,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "3056",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                    "grok_analysis_button": true,
+                    "quoted_status_result": {
+                        "result": {
+                            "__typename": "Tweet",
+                            "rest_id": "2015439473681805415",
+                            "core": {
+                                "user_results": {
+                                    "result": {
+                                        "__typename": "User",
+                                        "id": "VXNlcjo0ODA3OTAzOA==",
+                                        "rest_id": "48079038",
+                                        "affiliates_highlighted_label": {},
+                                        "avatar": {
+                                            "image_url": "https://pbs.twimg.com/profile_images/1897251202464931841/d6ySQOVY_normal.jpg"
+                                        },
+                                        "core": {
+                                            "created_at": "Wed Jun 17 19:20:11 +0000 2009",
+                                            "name": "Patrick McCorry \uD83D\uDC0B",
+                                            "screen_name": "stonecoldpat0"
+                                        },
+                                        "dm_permissions": {
+                                            "can_dm": true
+                                        },
+                                        "follow_request_sent": false,
+                                        "has_graduated_access": true,
+                                        "is_blue_verified": true,
+                                        "legacy": {
+                                            "default_profile": false,
+                                            "default_profile_image": false,
+                                            "description": "ethereum and L2 bull @arbitrum @lemniscap",
+                                            "entities": {
+                                                "description": {
+                                                    "urls": []
+                                                },
+                                                "url": {
+                                                    "urls": [
+                                                        {
+                                                            "display_url": "cryptocurrencyclass.github.io",
+                                                            "expanded_url": "https://cryptocurrencyclass.github.io/",
+                                                            "url": "https://t.co/LFIhYzmEKm",
+                                                            "indices": [
+                                                                0,
+                                                                23
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            "fast_followers_count": 0,
+                                            "favourites_count": 10805,
+                                            "followers_count": 24664,
+                                            "friends_count": 475,
+                                            "has_custom_timelines": true,
+                                            "is_translator": false,
+                                            "listed_count": 624,
+                                            "media_count": 2289,
+                                            "normal_followers_count": 24664,
+                                            "pinned_tweet_ids_str": [
+                                                "1891478134869889386"
+                                            ],
+                                            "possibly_sensitive": false,
+                                            "profile_banner_url": "https://pbs.twimg.com/profile_banners/48079038/1680178474",
+                                            "profile_interstitial_type": "",
+                                            "statuses_count": 31286,
+                                            "translator_type": "none",
+                                            "url": "https://t.co/LFIhYzmEKm",
+                                            "want_retweets": true,
+                                            "withheld_in_countries": []
+                                        },
+                                        "location": {
+                                            "location": "EVM+ \uD83E\uDD87\uD83D\uDD0A"
+                                        },
+                                        "media_permissions": {
+                                            "can_media_tag": false
+                                        },
+                                        "parody_commentary_fan_label": "None",
+                                        "profile_image_shape": "Circle",
+                                        "profile_bio": {
+                                            "description": "ethereum and L2 bull @arbitrum @lemniscap"
+                                        },
+                                        "privacy": {
+                                            "protected": false
+                                        },
+                                        "relationship_perspectives": {
+                                            "following": true
+                                        },
+                                        "super_follow_eligible": true,
+                                        "verification": {
+                                            "verified": false
+                                        },
+                                        "profile_description_language": "en"
+                                    }
+                                }
+                            },
+                            "unmention_data": {},
+                            "edit_control": {
+                                "edit_tweet_ids": [
+                                    "2015439473681805415"
+                                ],
+                                "editable_until_msecs": "1769356790000",
+                                "is_edit_eligible": true,
+                                "edits_remaining": "5"
+                            },
+                            "is_translatable": false,
+                            "views": {
+                                "count": "3675",
+                                "state": "EnabledWithCount"
+                            },
+                            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                            "note_tweet": {
+                                "is_expandable": true,
+                                "note_tweet_results": {
+                                    "result": {
+                                        "id": "Tm90ZVR3ZWV0OjIwMTU0Mzk0NzM1MTgxODY0OTY=",
+                                        "text": "I’ve been contemplating how governance tokens may evolve in the future where they are highly desirable to hold & use onchain. \n\nHere is a bit of a brain dump: \n\n- Control beyond what is available in shareholder voting. This may be treasury, protocol, directors of organisations, etc. \n\n—> It is not clear if it is more desirable to directly control the treasury compared to team(s) who allocate capital. Both possible too. \n\n- Perception on sustainability, where the DAO can sufficiently fund its operations from revenue and not the native token treasury.\n\n—> Essentially reinvesting revenue back into its own operations for growth. \n\n- Infrequent, but significantly impactful proposals. Voting should really matter and potentially change the trajectory of the project. \n\n—> Participation in DAO should not be full time or exhaustive. Wisdom of the crowds is the most expensive consensus function to invoke. I suspect 2-6 super proposals a year is more successful than 2-4 per week, where to land on that spectrum is still an open question. \n\n- Known and trusted actors to allocate capital and execute what is voted on. \n\n—> In Tesla, people are voting for Elon, not Alice in wonderland and her whacky companions. Voters want to support (and sometimes constrain) the core teams. \n\n- Equity & Token alignment is an ever increasing issue. \n\n—> We could foresee a day where equity has Preferred Stock, Common Stock and “Onchain Stock”, where onchain stock is a DAO token that can vote on shareholder proposals alongside other utility like protocol upgrades. \n\nThere are some other thoughts, but these are the main points from my musings. It really only applies to DAOs that have a huge footprint; can think >100 employees & potentially multiple independent teams working on the project. Beyond special interest cooperative DAO structures.",
+                                        "entity_set": {
+                                            "hashtags": [],
+                                            "symbols": [],
+                                            "urls": [],
+                                            "user_mentions": []
+                                        }
+                                    }
+                                }
+                            },
+                            "grok_analysis_button": true,
+                            "legacy": {
+                                "bookmark_count": 4,
+                                "bookmarked": false,
+                                "created_at": "Sun Jan 25 14:59:50 +0000 2026",
+                                "conversation_id_str": "2015439473681805415",
+                                "display_text_range": [
+                                    0,
+                                    282
+                                ],
+                                "entities": {
+                                    "hashtags": [],
+                                    "symbols": [],
+                                    "timestamps": [],
+                                    "urls": [],
+                                    "user_mentions": []
+                                },
+                                "favorite_count": 9,
+                                "favorited": false,
+                                "full_text": "I’ve been contemplating how governance tokens may evolve in the future where they are highly desirable to hold &amp; use onchain. \n\nHere is a bit of a brain dump: \n\n- Control beyond what is available in shareholder voting. This may be treasury, protocol, directors of organisations,",
+                                "is_quote_status": false,
+                                "lang": "en",
+                                "quote_count": 1,
+                                "reply_count": 4,
+                                "retweet_count": 1,
+                                "retweeted": false,
+                                "user_id_str": "48079038",
+                                "id_str": "2015439473681805415"
+                            }
+                        }
+                    },
+                    "legacy": {
+                        "bookmark_count": 0,
+                        "bookmarked": false,
+                        "created_at": "Sun Jan 25 16:43:57 +0000 2026",
+                        "conversation_id_str": "2015465678287802757",
+                        "display_text_range": [
+                            0,
+                            119
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [],
+                            "user_mentions": []
+                        },
+                        "favorite_count": 15,
+                        "favorited": false,
+                        "full_text": "Turns out corporate governance is largely a solved problem, and most attempts to make it better will only make it worse",
+                        "is_quote_status": true,
+                        "lang": "en",
+                        "quote_count": 0,
+                        "quoted_status_id_str": "2015439473681805415",
+                        "quoted_status_permalink": {
+                            "url": "https://t.co/9ZqcEDqjYT",
+                            "expanded": "https://twitter.com/stonecoldpat0/status/2015439473681805415",
+                            "display": "x.com/stonecoldpat0/…"
+                        },
+                        "reply_count": 5,
+                        "retweet_count": 0,
+                        "retweeted": false,
+                        "user_id_str": "566534886",
+                        "id_str": "2015465678287802757"
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABAoCAAEKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAAFQ8ADAMAAAAgAQACCgQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}

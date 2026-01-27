@@ -1,0 +1,6 @@
+- Connection to TreeOfAlpha?
+- Store event and result of them
+    - TimelineFetch is event
+    - ParseTimeline is event
+    - FetchDetail is event
+    - ProcessTimeline data is event.

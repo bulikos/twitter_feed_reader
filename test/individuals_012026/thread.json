@@ -1,0 +1,642 @@
+{
+    "entryId": "home-conversation-2015474966740336655",
+    "sortIndex": "2015474966740336625",
+    "content": {
+        "entryType": "TimelineTimelineModule",
+        "__typename": "TimelineTimelineModule",
+        "items": [
+            {
+                "entryId": "home-conversation-2015474966740336655-tweet-2015467925935693847",
+                "item": {
+                    "itemContent": {
+                        "itemType": "TimelineTweet",
+                        "__typename": "TimelineTweet",
+                        "tweet_results": {
+                            "result": {
+                                "__typename": "Tweet",
+                                "rest_id": "2015467925935693847",
+                                "core": {
+                                    "user_results": {
+                                        "result": {
+                                            "__typename": "User",
+                                            "id": "VXNlcjoxMzYwMTUzMjk0OTM3NjY5NjM1",
+                                            "rest_id": "1360153294937669635",
+                                            "affiliates_highlighted_label": {
+                                                "label": {
+                                                    "url": {
+                                                        "url": "https://twitter.com/blocmates",
+                                                        "urlType": "DeepLink"
+                                                    },
+                                                    "badge": {
+                                                        "url": "https://pbs.twimg.com/profile_images/1841422073203208192/VHovXDGD_bigger.jpg"
+                                                    },
+                                                    "description": "blocmates.",
+                                                    "userLabelType": "BusinessLabel",
+                                                    "userLabelDisplayType": "Badge"
+                                                }
+                                            },
+                                            "avatar": {
+                                                "image_url": "https://pbs.twimg.com/profile_images/1583462717498728455/puvD9UlZ_normal.jpg"
+                                            },
+                                            "core": {
+                                                "created_at": "Fri Feb 12 09:06:46 +0000 2021",
+                                                "name": "hoeem",
+                                                "screen_name": "hooeem"
+                                            },
+                                            "dm_permissions": {
+                                                "can_dm": true
+                                            },
+                                            "follow_request_sent": false,
+                                            "has_graduated_access": true,
+                                            "is_blue_verified": true,
+                                            "legacy": {
+                                                "default_profile": true,
+                                                "default_profile_image": false,
+                                                "description": "I will teach you how to escape your 9-5.",
+                                                "entities": {
+                                                    "description": {
+                                                        "urls": []
+                                                    },
+                                                    "url": {
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "sevenc.substack.com",
+                                                                "expanded_url": "https://sevenc.substack.com",
+                                                                "url": "https://t.co/eOOEH9JWK0",
+                                                                "indices": [
+                                                                    0,
+                                                                    23
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "fast_followers_count": 0,
+                                                "favourites_count": 88492,
+                                                "followers_count": 144150,
+                                                "friends_count": 1669,
+                                                "has_custom_timelines": true,
+                                                "is_translator": false,
+                                                "listed_count": 4269,
+                                                "media_count": 5740,
+                                                "normal_followers_count": 144150,
+                                                "pinned_tweet_ids_str": [
+                                                    "2007914329748668472"
+                                                ],
+                                                "possibly_sensitive": false,
+                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360153294937669635/1673297311",
+                                                "profile_interstitial_type": "",
+                                                "statuses_count": 52163,
+                                                "translator_type": "none",
+                                                "url": "https://t.co/eOOEH9JWK0",
+                                                "want_retweets": true,
+                                                "withheld_in_countries": []
+                                            },
+                                            "location": {
+                                                "location": "Join 24k + pirates \uD83D\uDC49"
+                                            },
+                                            "media_permissions": {
+                                                "can_media_tag": false
+                                            },
+                                            "parody_commentary_fan_label": "None",
+                                            "profile_image_shape": "Circle",
+                                            "professional": {
+                                                "rest_id": "1478094405793951748",
+                                                "professional_type": "Creator",
+                                                "category": []
+                                            },
+                                            "profile_bio": {
+                                                "description": "I will teach you how to escape your 9-5."
+                                            },
+                                            "privacy": {
+                                                "protected": false
+                                            },
+                                            "relationship_perspectives": {
+                                                "following": true
+                                            },
+                                            "super_follow_eligible": true,
+                                            "verification": {
+                                                "verified": false
+                                            },
+                                            "profile_description_language": "en"
+                                        }
+                                    }
+                                },
+                                "unmention_data": {},
+                                "edit_control": {
+                                    "edit_tweet_ids": [
+                                        "2015467925935693847"
+                                    ],
+                                    "editable_until_msecs": "1769363573000",
+                                    "is_edit_eligible": false,
+                                    "edits_remaining": "5"
+                                },
+                                "is_translatable": false,
+                                "views": {
+                                    "count": "1209",
+                                    "state": "EnabledWithCount"
+                                },
+                                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                "grok_analysis_button": true,
+                                "quoted_status_result": {
+                                    "result": {
+                                        "__typename": "Tweet",
+                                        "rest_id": "2015446011150283101",
+                                        "core": {
+                                            "user_results": {
+                                                "result": {
+                                                    "__typename": "User",
+                                                    "id": "VXNlcjoxMzYwMTUzMjk0OTM3NjY5NjM1",
+                                                    "rest_id": "1360153294937669635",
+                                                    "affiliates_highlighted_label": {
+                                                        "label": {
+                                                            "url": {
+                                                                "url": "https://twitter.com/blocmates",
+                                                                "urlType": "DeepLink"
+                                                            },
+                                                            "badge": {
+                                                                "url": "https://pbs.twimg.com/profile_images/1841422073203208192/VHovXDGD_bigger.jpg"
+                                                            },
+                                                            "description": "blocmates.",
+                                                            "userLabelType": "BusinessLabel",
+                                                            "userLabelDisplayType": "Badge"
+                                                        }
+                                                    },
+                                                    "avatar": {
+                                                        "image_url": "https://pbs.twimg.com/profile_images/1583462717498728455/puvD9UlZ_normal.jpg"
+                                                    },
+                                                    "core": {
+                                                        "created_at": "Fri Feb 12 09:06:46 +0000 2021",
+                                                        "name": "hoeem",
+                                                        "screen_name": "hooeem"
+                                                    },
+                                                    "dm_permissions": {
+                                                        "can_dm": true
+                                                    },
+                                                    "follow_request_sent": false,
+                                                    "has_graduated_access": true,
+                                                    "is_blue_verified": true,
+                                                    "legacy": {
+                                                        "default_profile": true,
+                                                        "default_profile_image": false,
+                                                        "description": "I will teach you how to escape your 9-5.",
+                                                        "entities": {
+                                                            "description": {
+                                                                "urls": []
+                                                            },
+                                                            "url": {
+                                                                "urls": [
+                                                                    {
+                                                                        "display_url": "sevenc.substack.com",
+                                                                        "expanded_url": "https://sevenc.substack.com",
+                                                                        "url": "https://t.co/eOOEH9JWK0",
+                                                                        "indices": [
+                                                                            0,
+                                                                            23
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "fast_followers_count": 0,
+                                                        "favourites_count": 88492,
+                                                        "followers_count": 144150,
+                                                        "friends_count": 1669,
+                                                        "has_custom_timelines": true,
+                                                        "is_translator": false,
+                                                        "listed_count": 4269,
+                                                        "media_count": 5740,
+                                                        "normal_followers_count": 144150,
+                                                        "pinned_tweet_ids_str": [
+                                                            "2007914329748668472"
+                                                        ],
+                                                        "possibly_sensitive": false,
+                                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360153294937669635/1673297311",
+                                                        "profile_interstitial_type": "",
+                                                        "statuses_count": 52163,
+                                                        "translator_type": "none",
+                                                        "url": "https://t.co/eOOEH9JWK0",
+                                                        "want_retweets": true,
+                                                        "withheld_in_countries": []
+                                                    },
+                                                    "location": {
+                                                        "location": "Join 24k + pirates \uD83D\uDC49"
+                                                    },
+                                                    "media_permissions": {
+                                                        "can_media_tag": false
+                                                    },
+                                                    "parody_commentary_fan_label": "None",
+                                                    "profile_image_shape": "Circle",
+                                                    "professional": {
+                                                        "rest_id": "1478094405793951748",
+                                                        "professional_type": "Creator",
+                                                        "category": []
+                                                    },
+                                                    "profile_bio": {
+                                                        "description": "I will teach you how to escape your 9-5."
+                                                    },
+                                                    "privacy": {
+                                                        "protected": false
+                                                    },
+                                                    "relationship_perspectives": {
+                                                        "following": true
+                                                    },
+                                                    "super_follow_eligible": true,
+                                                    "verification": {
+                                                        "verified": false
+                                                    },
+                                                    "profile_description_language": "en"
+                                                }
+                                            }
+                                        },
+                                        "unmention_data": {},
+                                        "edit_control": {
+                                            "edit_tweet_ids": [
+                                                "2015446011150283101"
+                                            ],
+                                            "editable_until_msecs": "1769358348000",
+                                            "is_edit_eligible": false,
+                                            "edits_remaining": "5"
+                                        },
+                                        "is_translatable": false,
+                                        "views": {
+                                            "count": "7090",
+                                            "state": "EnabledWithCount"
+                                        },
+                                        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                        "article": {
+                                            "article_results": {
+                                                "result": {
+                                                    "rest_id": "2015431596845740032",
+                                                    "id": "QXJ0aWNsZUVudGl0eToyMDE1NDMxNTk2ODQ1NzQwMDMy",
+                                                    "title": "Why is your timeline filled with people purchasing Mac Minis?",
+                                                    "preview_text": "Have we found AGI? Do I need to buy a Mac Mini? What is Clawdbot? Do I need it? How do I get it? Don't worry, I have answered every question you're thinking about right here:\n\nIf you want to scroll to",
+                                                    "cover_media": {
+                                                        "id": "QXBpTWVkaWE6DAAFCgABG/hAlkUXsAAKAAIS4Dw3INZAAwAA",
+                                                        "media_key": "3_2015431847396749312",
+                                                        "media_id": "2015431847396749312",
+                                                        "media_info": {
+                                                            "__typename": "ApiImage",
+                                                            "original_img_height": 1638,
+                                                            "original_img_width": 4096,
+                                                            "original_img_url": "https://pbs.twimg.com/media/G_hAlkUXsAALeGW.jpg",
+                                                            "color_info": {
+                                                                "palette": [
+                                                                    {
+                                                                        "percentage": 53.92,
+                                                                        "rgb": {
+                                                                            "blue": 210,
+                                                                            "green": 212,
+                                                                            "red": 212
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "percentage": 21.38,
+                                                                        "rgb": {
+                                                                            "blue": 57,
+                                                                            "green": 69,
+                                                                            "red": 81
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "percentage": 10.42,
+                                                                        "rgb": {
+                                                                            "blue": 80,
+                                                                            "green": 108,
+                                                                            "red": 151
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "percentage": 2.96,
+                                                                        "rgb": {
+                                                                            "blue": 81,
+                                                                            "green": 91,
+                                                                            "red": 67
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "percentage": 1.88,
+                                                                        "rgb": {
+                                                                            "blue": 111,
+                                                                            "green": 171,
+                                                                            "red": 111
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    },
+                                                    "lifecycle_state": {
+                                                        "modified_at_secs": 1769354748
+                                                    },
+                                                    "metadata": {
+                                                        "first_published_at_secs": 1769354748
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "grok_analysis_button": true,
+                                        "legacy": {
+                                            "bookmark_count": 59,
+                                            "bookmarked": false,
+                                            "created_at": "Sun Jan 25 15:25:48 +0000 2026",
+                                            "conversation_id_str": "2015446011150283101",
+                                            "display_text_range": [
+                                                0,
+                                                23
+                                            ],
+                                            "entities": {
+                                                "hashtags": [],
+                                                "symbols": [],
+                                                "timestamps": [],
+                                                "urls": [
+                                                    {
+                                                        "display_url": "x.com/i/article/2015…",
+                                                        "expanded_url": "http://x.com/i/article/2015431596845740032",
+                                                        "url": "https://t.co/2KaWzJxay8",
+                                                        "indices": [
+                                                            0,
+                                                            23
+                                                        ]
+                                                    }
+                                                ],
+                                                "user_mentions": []
+                                            },
+                                            "favorite_count": 50,
+                                            "favorited": false,
+                                            "full_text": "https://t.co/2KaWzJxay8",
+                                            "is_quote_status": false,
+                                            "lang": "zxx",
+                                            "possibly_sensitive": false,
+                                            "possibly_sensitive_editable": true,
+                                            "quote_count": 5,
+                                            "reply_count": 11,
+                                            "retweet_count": 4,
+                                            "retweeted": false,
+                                            "user_id_str": "1360153294937669635",
+                                            "id_str": "2015446011150283101"
+                                        }
+                                    }
+                                },
+                                "legacy": {
+                                    "bookmark_count": 4,
+                                    "bookmarked": false,
+                                    "created_at": "Sun Jan 25 16:52:53 +0000 2026",
+                                    "conversation_id_str": "2015467925935693847",
+                                    "display_text_range": [
+                                        0,
+                                        278
+                                    ],
+                                    "entities": {
+                                        "hashtags": [],
+                                        "symbols": [],
+                                        "timestamps": [],
+                                        "urls": [],
+                                        "user_mentions": [
+                                            {
+                                                "id_str": "1995710751097659392",
+                                                "name": "Clawd\uD83E\uDD9E",
+                                                "screen_name": "clawdbot",
+                                                "indices": [
+                                                    35,
+                                                    44
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "favorite_count": 19,
+                                    "favorited": false,
+                                    "full_text": "People in my group chat are asking @clawdbot to create its own Hyperliquid wallet, giving it a trading strategy, and sending it a couple hundred bucks to trade with and guess what?\n\nIt’s set up its wallet.\n\nIt’s making trades.\n\nIt’s following the strategy.\n\nThis is not a fad! \uD83D\uDC47",
+                                    "is_quote_status": true,
+                                    "lang": "en",
+                                    "quote_count": 0,
+                                    "quoted_status_id_str": "2015446011150283101",
+                                    "quoted_status_permalink": {
+                                        "url": "https://t.co/GXOgav52UI",
+                                        "expanded": "https://twitter.com/hooeem/status/2015446011150283101",
+                                        "display": "x.com/hooeem/status/…"
+                                    },
+                                    "reply_count": 5,
+                                    "retweet_count": 1,
+                                    "retweeted": false,
+                                    "user_id_str": "1360153294937669635",
+                                    "id_str": "2015467925935693847"
+                                }
+                            }
+                        },
+                        "tweetDisplayType": "Tweet"
+                    },
+                    "clientEventInfo": {
+                        "component": "following_in_network",
+                        "element": "tweet",
+                        "details": {
+                            "timelinesDetails": {
+                                "injectionType": "FollowingInNetwork",
+                                "controllerData": "DAACDAABDAABCgABAEAABJoCAAEKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAADw8ADAMAAAAgAQACmgQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "entryId": "home-conversation-2015474966740336655-tweet-2015468480854663263",
+                "item": {
+                    "itemContent": {
+                        "itemType": "TimelineTweet",
+                        "__typename": "TimelineTweet",
+                        "tweet_results": {
+                            "result": {
+                                "__typename": "Tweet",
+                                "rest_id": "2015468480854663263",
+                                "core": {
+                                    "user_results": {
+                                        "result": {
+                                            "__typename": "User",
+                                            "id": "VXNlcjoxMzYwMTUzMjk0OTM3NjY5NjM1",
+                                            "rest_id": "1360153294937669635",
+                                            "affiliates_highlighted_label": {
+                                                "label": {
+                                                    "url": {
+                                                        "url": "https://twitter.com/blocmates",
+                                                        "urlType": "DeepLink"
+                                                    },
+                                                    "badge": {
+                                                        "url": "https://pbs.twimg.com/profile_images/1841422073203208192/VHovXDGD_bigger.jpg"
+                                                    },
+                                                    "description": "blocmates.",
+                                                    "userLabelType": "BusinessLabel",
+                                                    "userLabelDisplayType": "Badge"
+                                                }
+                                            },
+                                            "avatar": {
+                                                "image_url": "https://pbs.twimg.com/profile_images/1583462717498728455/puvD9UlZ_normal.jpg"
+                                            },
+                                            "core": {
+                                                "created_at": "Fri Feb 12 09:06:46 +0000 2021",
+                                                "name": "hoeem",
+                                                "screen_name": "hooeem"
+                                            },
+                                            "dm_permissions": {
+                                                "can_dm": true
+                                            },
+                                            "follow_request_sent": false,
+                                            "has_graduated_access": true,
+                                            "is_blue_verified": true,
+                                            "legacy": {
+                                                "default_profile": true,
+                                                "default_profile_image": false,
+                                                "description": "I will teach you how to escape your 9-5.",
+                                                "entities": {
+                                                    "description": {
+                                                        "urls": []
+                                                    },
+                                                    "url": {
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "sevenc.substack.com",
+                                                                "expanded_url": "https://sevenc.substack.com",
+                                                                "url": "https://t.co/eOOEH9JWK0",
+                                                                "indices": [
+                                                                    0,
+                                                                    23
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "fast_followers_count": 0,
+                                                "favourites_count": 88492,
+                                                "followers_count": 144150,
+                                                "friends_count": 1669,
+                                                "has_custom_timelines": true,
+                                                "is_translator": false,
+                                                "listed_count": 4269,
+                                                "media_count": 5740,
+                                                "normal_followers_count": 144150,
+                                                "pinned_tweet_ids_str": [
+                                                    "2007914329748668472"
+                                                ],
+                                                "possibly_sensitive": false,
+                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360153294937669635/1673297311",
+                                                "profile_interstitial_type": "",
+                                                "statuses_count": 52163,
+                                                "translator_type": "none",
+                                                "url": "https://t.co/eOOEH9JWK0",
+                                                "want_retweets": true,
+                                                "withheld_in_countries": []
+                                            },
+                                            "location": {
+                                                "location": "Join 24k + pirates \uD83D\uDC49"
+                                            },
+                                            "media_permissions": {
+                                                "can_media_tag": false
+                                            },
+                                            "parody_commentary_fan_label": "None",
+                                            "profile_image_shape": "Circle",
+                                            "professional": {
+                                                "rest_id": "1478094405793951748",
+                                                "professional_type": "Creator",
+                                                "category": []
+                                            },
+                                            "profile_bio": {
+                                                "description": "I will teach you how to escape your 9-5."
+                                            },
+                                            "privacy": {
+                                                "protected": false
+                                            },
+                                            "relationship_perspectives": {
+                                                "following": true
+                                            },
+                                            "super_follow_eligible": true,
+                                            "verification": {
+                                                "verified": false
+                                            },
+                                            "profile_description_language": "en"
+                                        }
+                                    }
+                                },
+                                "unmention_data": {},
+                                "edit_control": {
+                                    "edit_tweet_ids": [
+                                        "2015468480854663263"
+                                    ],
+                                    "editable_until_msecs": "1769363706000",
+                                    "is_edit_eligible": false,
+                                    "edits_remaining": "5"
+                                },
+                                "is_translatable": false,
+                                "views": {
+                                    "count": "365",
+                                    "state": "EnabledWithCount"
+                                },
+                                "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                "grok_analysis_button": true,
+                                "legacy": {
+                                    "bookmark_count": 0,
+                                    "bookmarked": false,
+                                    "created_at": "Sun Jan 25 16:55:06 +0000 2026",
+                                    "conversation_id_str": "2015467925935693847",
+                                    "display_text_range": [
+                                        0,
+                                        68
+                                    ],
+                                    "entities": {
+                                        "hashtags": [],
+                                        "symbols": [],
+                                        "timestamps": [],
+                                        "urls": [],
+                                        "user_mentions": []
+                                    },
+                                    "favorite_count": 2,
+                                    "favorited": false,
+                                    "full_text": "DO NOT give this thing access to your main computer.\n\nIt’s powerful.",
+                                    "in_reply_to_screen_name": "hooeem",
+                                    "in_reply_to_status_id_str": "2015467925935693847",
+                                    "in_reply_to_user_id_str": "1360153294937669635",
+                                    "is_quote_status": false,
+                                    "lang": "en",
+                                    "quote_count": 0,
+                                    "reply_count": 1,
+                                    "retweet_count": 0,
+                                    "retweeted": false,
+                                    "user_id_str": "1360153294937669635",
+                                    "id_str": "2015468480854663263"
+                                }
+                            }
+                        },
+                        "tweetDisplayType": "Tweet"
+                    },
+                    "clientEventInfo": {
+                        "component": "following_in_network",
+                        "element": "tweet",
+                        "details": {
+                            "timelinesDetails": {
+                                "injectionType": "FollowingInNetwork",
+                                "controllerData": "DAACDAABDAABCgABAEAAJJoCAAUKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAADw8ADAMAAAAgBQACmiQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                            }
+                        }
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "conversationMetadata": {
+                "allTweetIds": [
+                    "2015467925935693847",
+                    "2015468480854663263"
+                ],
+                "enableDeduplication": true
+            }
+        },
+        "displayType": "VerticalConversation",
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABJoCAAEKAAKAAAAAAAEBAAoACbNS43Ayn3zGCAALAAAADw8ADAMAAAAgAQACmgQAQAAAAQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}

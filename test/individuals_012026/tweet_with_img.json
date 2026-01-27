@@ -1,0 +1,389 @@
+{
+    "entryId": "tweet-2015438257199472968",
+    "sortIndex": "2015474966740336575",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2015438257199472968",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoxMDUxODUyNTM0NTE4ODI0OTYw",
+                                "rest_id": "1051852534518824960",
+                                "affiliates_highlighted_label": {
+                                    "label": {
+                                        "url": {
+                                            "url": "https://twitter.com/wassie",
+                                            "urlType": "DeepLink"
+                                        },
+                                        "badge": {
+                                            "url": "https://pbs.twimg.com/profile_images/1965819805518225408/pdrTAbP8_bigger.jpg"
+                                        },
+                                        "description": "wassie",
+                                        "userLabelType": "BusinessLabel",
+                                        "userLabelDisplayType": "Badge"
+                                    }
+                                },
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1812298915661623296/P0Yj0Xgq_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Mon Oct 15 15:09:21 +0000 2018",
+                                    "name": "smolting (wassie, verse)",
+                                    "screen_name": "inversebrah"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": false
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "professional it/that and lil/shid @wassie\n\nNOT A FROK D:\n\nmite be a multiagency fed (unproven)\n\ncheck out https://t.co/kq0S9R3nRZ",
+                                    "entities": {
+                                        "description": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "linktr.ee/wassielinks",
+                                                    "expanded_url": "https://linktr.ee/wassielinks",
+                                                    "url": "https://t.co/kq0S9R3nRZ",
+                                                    "indices": [
+                                                        106,
+                                                        129
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "url": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "urbandictionary.com/define.php?ter…",
+                                                    "expanded_url": "https://www.urbandictionary.com/define.php?term=smol+ting",
+                                                    "url": "https://t.co/PyuPpbJPUp",
+                                                    "indices": [
+                                                        0,
+                                                        23
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 477941,
+                                    "followers_count": 382568,
+                                    "friends_count": 5374,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 4291,
+                                    "media_count": 95987,
+                                    "normal_followers_count": 382568,
+                                    "pinned_tweet_ids_str": [
+                                        "2003426261289627814"
+                                    ],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1051852534518824960/1765754126",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 342194,
+                                    "translator_type": "none",
+                                    "url": "https://t.co/PyuPpbJPUp",
+                                    "want_retweets": true,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": "top shelf in the fridge "
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": false
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "professional": {
+                                    "rest_id": "1682711765250088960",
+                                    "professional_type": "Creator",
+                                    "category": []
+                                },
+                                "profile_bio": {
+                                    "description": "professional it/that and lil/shid @wassie\n\nNOT A FROK D:\n\nmite be a multiagency fed (unproven)\n\ncheck out https://t.co/kq0S9R3nRZ"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": true
+                                },
+                                "verification": {
+                                    "verified": false
+                                },
+                                "profile_description_language": "en"
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2015438257199472968"
+                        ],
+                        "editable_until_msecs": "1769356500000",
+                        "is_edit_eligible": true,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "3605",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                    "grok_analysis_button": true,
+                    "legacy": {
+                        "bookmark_count": 0,
+                        "bookmarked": false,
+                        "created_at": "Sun Jan 25 14:55:00 +0000 2026",
+                        "conversation_id_str": "2015438257199472968",
+                        "display_text_range": [
+                            0,
+                            35
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "media": [
+                                {
+                                    "display_url": "pic.x.com/sSzANTnY2W",
+                                    "expanded_url": "https://x.com/inversebrah/status/2015438257199472968/photo/1",
+                                    "id_str": "2015298604416794624",
+                                    "indices": [
+                                        36,
+                                        59
+                                    ],
+                                    "media_key": "3_2015298604416794624",
+                                    "media_url_https": "https://pbs.twimg.com/media/G_fHZziagAAqZ0z.jpg",
+                                    "type": "photo",
+                                    "url": "https://t.co/sSzANTnY2W",
+                                    "ext_media_availability": {
+                                        "status": "Available"
+                                    },
+                                    "features": {
+                                        "large": {
+                                            "faces": []
+                                        },
+                                        "medium": {
+                                            "faces": []
+                                        },
+                                        "small": {
+                                            "faces": []
+                                        },
+                                        "orig": {
+                                            "faces": []
+                                        }
+                                    },
+                                    "sizes": {
+                                        "large": {
+                                            "h": 569,
+                                            "w": 579,
+                                            "resize": "fit"
+                                        },
+                                        "medium": {
+                                            "h": 569,
+                                            "w": 579,
+                                            "resize": "fit"
+                                        },
+                                        "small": {
+                                            "h": 569,
+                                            "w": 579,
+                                            "resize": "fit"
+                                        },
+                                        "thumb": {
+                                            "h": 150,
+                                            "w": 150,
+                                            "resize": "crop"
+                                        }
+                                    },
+                                    "original_info": {
+                                        "height": 569,
+                                        "width": 579,
+                                        "focus_rects": [
+                                            {
+                                                "x": 0,
+                                                "y": 0,
+                                                "w": 579,
+                                                "h": 324
+                                            },
+                                            {
+                                                "x": 10,
+                                                "y": 0,
+                                                "w": 569,
+                                                "h": 569
+                                            },
+                                            {
+                                                "x": 80,
+                                                "y": 0,
+                                                "w": 499,
+                                                "h": 569
+                                            },
+                                            {
+                                                "x": 277,
+                                                "y": 0,
+                                                "w": 285,
+                                                "h": 569
+                                            },
+                                            {
+                                                "x": 0,
+                                                "y": 0,
+                                                "w": 579,
+                                                "h": 569
+                                            }
+                                        ]
+                                    },
+                                    "allow_download_status": {
+                                        "allow_download": true
+                                    },
+                                    "media_results": {
+                                        "result": {
+                                            "media_key": "3_2015298604416794624"
+                                        }
+                                    }
+                                }
+                            ],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [],
+                            "user_mentions": []
+                        },
+                        "extended_entities": {
+                            "media": [
+                                {
+                                    "display_url": "pic.x.com/sSzANTnY2W",
+                                    "expanded_url": "https://x.com/inversebrah/status/2015438257199472968/photo/1",
+                                    "id_str": "2015298604416794624",
+                                    "indices": [
+                                        36,
+                                        59
+                                    ],
+                                    "media_key": "3_2015298604416794624",
+                                    "media_url_https": "https://pbs.twimg.com/media/G_fHZziagAAqZ0z.jpg",
+                                    "type": "photo",
+                                    "url": "https://t.co/sSzANTnY2W",
+                                    "ext_media_availability": {
+                                        "status": "Available"
+                                    },
+                                    "features": {
+                                        "large": {
+                                            "faces": []
+                                        },
+                                        "medium": {
+                                            "faces": []
+                                        },
+                                        "small": {
+                                            "faces": []
+                                        },
+                                        "orig": {
+                                            "faces": []
+                                        }
+                                    },
+                                    "sizes": {
+                                        "large": {
+                                            "h": 569,
+                                            "w": 579,
+                                            "resize": "fit"
+                                        },
+                                        "medium": {
+                                            "h": 569,
+                                            "w": 579,
+                                            "resize": "fit"
+                                        },
+                                        "small": {
+                                            "h": 569,
+                                            "w": 579,
+                                            "resize": "fit"
+                                        },
+                                        "thumb": {
+                                            "h": 150,
+                                            "w": 150,
+                                            "resize": "crop"
+                                        }
+                                    },
+                                    "original_info": {
+                                        "height": 569,
+                                        "width": 579,
+                                        "focus_rects": [
+                                            {
+                                                "x": 0,
+                                                "y": 0,
+                                                "w": 579,
+                                                "h": 324
+                                            },
+                                            {
+                                                "x": 10,
+                                                "y": 0,
+                                                "w": 569,
+                                                "h": 569
+                                            },
+                                            {
+                                                "x": 80,
+                                                "y": 0,
+                                                "w": 499,
+                                                "h": 569
+                                            },
+                                            {
+                                                "x": 277,
+                                                "y": 0,
+                                                "w": 285,
+                                                "h": 569
+                                            },
+                                            {
+                                                "x": 0,
+                                                "y": 0,
+                                                "w": 579,
+                                                "h": 569
+                                            }
+                                        ]
+                                    },
+                                    "allow_download_status": {
+                                        "allow_download": true
+                                    },
+                                    "media_results": {
+                                        "result": {
+                                            "media_key": "3_2015298604416794624"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "favorite_count": 66,
+                        "favorited": false,
+                        "full_text": "does smolting haz a fluoride stare? https://t.co/sSzANTnY2W",
+                        "is_quote_status": false,
+                        "lang": "en",
+                        "possibly_sensitive": false,
+                        "possibly_sensitive_editable": true,
+                        "quote_count": 0,
+                        "reply_count": 17,
+                        "retweet_count": 2,
+                        "retweeted": false,
+                        "user_id_str": "1051852534518824960",
+                        "id_str": "2015438257199472968"
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABAoCAAEKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAAQQ8ADAMAAAAgAQACCgQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}

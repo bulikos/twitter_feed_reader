@@ -1,0 +1,703 @@
+{
+    "entryId": "tweet-2015457435347988796",
+    "sortIndex": "2015474966740336609",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2015457435347988796",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoxNjcwNDU2NTgxOTE2NDQ2NzIy",
+                                "rest_id": "1670456581916446722",
+                                "affiliates_highlighted_label": {},
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1926618257903017984/95tZK3KJ_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Sun Jun 18 15:41:24 +0000 2023",
+                                    "name": "Beacon | ∑:",
+                                    "screen_name": "0xxbeacon"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": true
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "shipping fast at @badbunnz_",
+                                    "entities": {
+                                        "description": {
+                                            "urls": []
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 27552,
+                                    "followers_count": 25240,
+                                    "friends_count": 2825,
+                                    "has_custom_timelines": false,
+                                    "is_translator": false,
+                                    "listed_count": 676,
+                                    "media_count": 1745,
+                                    "normal_followers_count": 25240,
+                                    "pinned_tweet_ids_str": [
+                                        "2013697977697583361"
+                                    ],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1670456581916446722/1746553934",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 18777,
+                                    "translator_type": "none",
+                                    "want_retweets": true,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": "Ω"
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": true
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "profile_bio": {
+                                    "description": "shipping fast at @badbunnz_"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": true
+                                },
+                                "verification": {
+                                    "verified": false
+                                },
+                                "profile_description_language": "en"
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2015457435347988796"
+                        ],
+                        "editable_until_msecs": "1769361072632",
+                        "is_edit_eligible": false,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "state": "Enabled"
+                    },
+                    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                    "grok_analysis_button": true,
+                    "legacy": {
+                        "bookmark_count": 0,
+                        "bookmarked": false,
+                        "created_at": "Sun Jan 25 16:11:12 +0000 2026",
+                        "conversation_id_str": "2015457435347988796",
+                        "display_text_range": [
+                            0,
+                            73
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [],
+                            "user_mentions": [
+                                {
+                                    "id_str": "299202240",
+                                    "name": "W4lid0 | Σ:",
+                                    "screen_name": "0xWalido",
+                                    "indices": [
+                                        3,
+                                        12
+                                    ]
+                                },
+                                {
+                                    "id_str": "1905571145375776774",
+                                    "name": "Bad Bunnz",
+                                    "screen_name": "badbunnz_",
+                                    "indices": [
+                                        56,
+                                        66
+                                    ]
+                                }
+                            ]
+                        },
+                        "favorite_count": 0,
+                        "favorited": false,
+                        "full_text": "RT @0xWalido: I will work very very very very  hard for @badbunnz_ to win",
+                        "is_quote_status": true,
+                        "lang": "en",
+                        "quote_count": 0,
+                        "quoted_status_id_str": "2015126391990165712",
+                        "quoted_status_permalink": {
+                            "url": "https://t.co/4qwaBK0BFl",
+                            "expanded": "https://twitter.com/garyvee/status/2015126391990165712",
+                            "display": "x.com/garyvee/status…"
+                        },
+                        "reply_count": 0,
+                        "retweet_count": 1,
+                        "retweeted": false,
+                        "user_id_str": "1670456581916446722",
+                        "id_str": "2015457435347988796",
+                        "retweeted_status_result": {
+                            "result": {
+                                "__typename": "Tweet",
+                                "rest_id": "2015452082325651967",
+                                "core": {
+                                    "user_results": {
+                                        "result": {
+                                            "__typename": "User",
+                                            "id": "VXNlcjoyOTkyMDIyNDA=",
+                                            "rest_id": "299202240",
+                                            "affiliates_highlighted_label": {},
+                                            "avatar": {
+                                                "image_url": "https://pbs.twimg.com/profile_images/1972087381739069440/1ZOTsNSb_normal.jpg"
+                                            },
+                                            "core": {
+                                                "created_at": "Sun May 15 17:39:11 +0000 2011",
+                                                "name": "W4lid0 | Σ:",
+                                                "screen_name": "0xWalido"
+                                            },
+                                            "dm_permissions": {
+                                                "can_dm": true
+                                            },
+                                            "follow_request_sent": false,
+                                            "has_graduated_access": true,
+                                            "is_blue_verified": true,
+                                            "legacy": {
+                                                "default_profile": true,
+                                                "default_profile_image": false,
+                                                "description": "MegaETH fundamentalist",
+                                                "entities": {
+                                                    "description": {
+                                                        "urls": []
+                                                    }
+                                                },
+                                                "fast_followers_count": 0,
+                                                "favourites_count": 38281,
+                                                "followers_count": 1705,
+                                                "friends_count": 1794,
+                                                "has_custom_timelines": false,
+                                                "is_translator": false,
+                                                "listed_count": 14,
+                                                "media_count": 2020,
+                                                "normal_followers_count": 1705,
+                                                "pinned_tweet_ids_str": [
+                                                    "1991117534494327183"
+                                                ],
+                                                "possibly_sensitive": false,
+                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/299202240/1762186349",
+                                                "profile_interstitial_type": "",
+                                                "statuses_count": 18531,
+                                                "translator_type": "none",
+                                                "want_retweets": false,
+                                                "withheld_in_countries": []
+                                            },
+                                            "location": {
+                                                "location": ""
+                                            },
+                                            "media_permissions": {
+                                                "can_media_tag": true
+                                            },
+                                            "parody_commentary_fan_label": "None",
+                                            "profile_image_shape": "Circle",
+                                            "profile_bio": {
+                                                "description": "MegaETH fundamentalist"
+                                            },
+                                            "privacy": {
+                                                "protected": false
+                                            },
+                                            "relationship_perspectives": {
+                                                "following": false
+                                            },
+                                            "verification": {
+                                                "verified": false
+                                            }
+                                        }
+                                    }
+                                },
+                                "unmention_data": {},
+                                "edit_control": {
+                                    "edit_tweet_ids": [
+                                        "2015452082325651967"
+                                    ],
+                                    "editable_until_msecs": "1769359796000",
+                                    "is_edit_eligible": true,
+                                    "edits_remaining": "5"
+                                },
+                                "is_translatable": false,
+                                "views": {
+                                    "count": "413",
+                                    "state": "EnabledWithCount"
+                                },
+                                "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+                                "grok_analysis_button": true,
+                                "quoted_status_result": {
+                                    "result": {
+                                        "__typename": "Tweet",
+                                        "rest_id": "2015126391990165712",
+                                        "core": {
+                                            "user_results": {
+                                                "result": {
+                                                    "__typename": "User",
+                                                    "id": "VXNlcjo1NzY4ODcy",
+                                                    "rest_id": "5768872",
+                                                    "affiliates_highlighted_label": {
+                                                        "label": {
+                                                            "url": {
+                                                                "url": "https://twitter.com/veefriends",
+                                                                "urlType": "DeepLink"
+                                                            },
+                                                            "badge": {
+                                                                "url": "https://pbs.twimg.com/profile_images/1904927973720920064/eYQ4wi2U_bigger.jpg"
+                                                            },
+                                                            "description": "VeeFriends",
+                                                            "userLabelType": "BusinessLabel",
+                                                            "userLabelDisplayType": "Badge"
+                                                        }
+                                                    },
+                                                    "avatar": {
+                                                        "image_url": "https://pbs.twimg.com/profile_images/1658127153450328068/G4GOSuZB_normal.jpg"
+                                                    },
+                                                    "core": {
+                                                        "created_at": "Fri May 04 15:32:48 +0000 2007",
+                                                        "name": "Gary Vaynerchuk",
+                                                        "screen_name": "garyvee"
+                                                    },
+                                                    "dm_permissions": {
+                                                        "can_dm": false
+                                                    },
+                                                    "follow_request_sent": false,
+                                                    "has_graduated_access": true,
+                                                    "is_blue_verified": true,
+                                                    "legacy": {
+                                                        "default_profile": false,
+                                                        "default_profile_image": false,
+                                                        "description": "Family First. CEO of @Vaynermedia. \uD83D\uDC08‍⬛ Creator of @veefriends. Investor in Twitter, venmo, FB & more. Die hard @NYJets fan. @winetexts @vaynersports",
+                                                        "entities": {
+                                                            "description": {
+                                                                "urls": []
+                                                            },
+                                                            "url": {
+                                                                "urls": [
+                                                                    {
+                                                                        "display_url": "Garyvee.com/attention",
+                                                                        "expanded_url": "http://Garyvee.com/attention",
+                                                                        "url": "https://t.co/C8jjvD3XQ3",
+                                                                        "indices": [
+                                                                            0,
+                                                                            23
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        "fast_followers_count": 0,
+                                                        "favourites_count": 113658,
+                                                        "followers_count": 3060110,
+                                                        "friends_count": 23445,
+                                                        "has_custom_timelines": true,
+                                                        "is_translator": false,
+                                                        "listed_count": 32742,
+                                                        "media_count": 20546,
+                                                        "normal_followers_count": 3060110,
+                                                        "pinned_tweet_ids_str": [],
+                                                        "possibly_sensitive": false,
+                                                        "profile_banner_url": "https://pbs.twimg.com/profile_banners/5768872/1740416034",
+                                                        "profile_interstitial_type": "",
+                                                        "statuses_count": 228692,
+                                                        "translator_type": "regular",
+                                                        "url": "https://t.co/C8jjvD3XQ3",
+                                                        "want_retweets": false,
+                                                        "withheld_in_countries": []
+                                                    },
+                                                    "location": {
+                                                        "location": "NYC"
+                                                    },
+                                                    "media_permissions": {
+                                                        "can_media_tag": true
+                                                    },
+                                                    "parody_commentary_fan_label": "None",
+                                                    "profile_image_shape": "Circle",
+                                                    "professional": {
+                                                        "rest_id": "1793665583205990539",
+                                                        "professional_type": "Creator",
+                                                        "category": [
+                                                            {
+                                                                "id": 958,
+                                                                "name": "Entrepreneur",
+                                                                "icon_name": "IconBriefcaseStroke"
+                                                            }
+                                                        ]
+                                                    },
+                                                    "profile_bio": {
+                                                        "description": "Family First. CEO of @Vaynermedia. \uD83D\uDC08‍⬛ Creator of @veefriends. Investor in Twitter, venmo, FB & more. Die hard @NYJets fan. @winetexts @vaynersports"
+                                                    },
+                                                    "privacy": {
+                                                        "protected": false
+                                                    },
+                                                    "relationship_perspectives": {
+                                                        "following": false
+                                                    },
+                                                    "verification": {
+                                                        "verified": false
+                                                    },
+                                                    "profile_description_language": "en"
+                                                }
+                                            }
+                                        },
+                                        "unmention_data": {},
+                                        "edit_control": {
+                                            "edit_tweet_ids": [
+                                                "2015126391990165712"
+                                            ],
+                                            "editable_until_msecs": "1769282145000",
+                                            "is_edit_eligible": true,
+                                            "edits_remaining": "5"
+                                        },
+                                        "is_translatable": false,
+                                        "views": {
+                                            "count": "233897",
+                                            "state": "EnabledWithCount"
+                                        },
+                                        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                                        "note_tweet": {
+                                            "is_expandable": true,
+                                            "note_tweet_results": {
+                                                "result": {
+                                                    "id": "Tm90ZVR3ZWV0OjIwMTUxMjYzOTE5MDIwNjg3MzY=",
+                                                    "text": "I want @pudgypenguins to win\nI want @goodvibesclub to win \nI want @Azuki to win \nI want @BoredApeYC  to win \nI want @doodles to win \nI want @quirkiesnft to win\nI want @worldofwomenxyz to win\nI want @re_generates to win\nI want @ChimpersHQ to win\nI want @moonbirds to win\nI want @unofficialmfers to win\nI want @MeebitsNFTs to win\nI want @coolcats to win \n\nI will work very very very very  hard for @veefriends to win",
+                                                    "entity_set": {
+                                                        "hashtags": [],
+                                                        "symbols": [],
+                                                        "urls": [],
+                                                        "user_mentions": [
+                                                            {
+                                                                "id_str": "1415078650039443456",
+                                                                "name": "Pudgy Penguins",
+                                                                "screen_name": "pudgypenguins",
+                                                                "indices": [
+                                                                    7,
+                                                                    21
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1513591185406836741",
+                                                                "name": "Good Vibes Club \uD83E\uDD19",
+                                                                "screen_name": "goodvibesclub",
+                                                                "indices": [
+                                                                    36,
+                                                                    50
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1432583226707484676",
+                                                                "name": "Azuki",
+                                                                "screen_name": "Azuki",
+                                                                "indices": [
+                                                                    66,
+                                                                    72
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1381699264011771906",
+                                                                "name": "Bored Ape Yacht Club \uD83C\uDF4C",
+                                                                "screen_name": "BoredApeYC",
+                                                                "indices": [
+                                                                    88,
+                                                                    99
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1405701429646430212",
+                                                                "name": "doodles",
+                                                                "screen_name": "doodles",
+                                                                "indices": [
+                                                                    116,
+                                                                    124
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1478970178931097601",
+                                                                "name": "Quirkies",
+                                                                "screen_name": "quirkiesnft",
+                                                                "indices": [
+                                                                    140,
+                                                                    152
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1414218489276125185",
+                                                                "name": "WoW",
+                                                                "screen_name": "worldofwomenxyz",
+                                                                "indices": [
+                                                                    167,
+                                                                    183
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1823105734705586176",
+                                                                "name": "re:generates",
+                                                                "screen_name": "re_generates",
+                                                                "indices": [
+                                                                    198,
+                                                                    211
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1476904518998794258",
+                                                                "name": "Chimpers",
+                                                                "screen_name": "ChimpersHQ",
+                                                                "indices": [
+                                                                    226,
+                                                                    237
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1498857371547828224",
+                                                                "name": "Moonbirds",
+                                                                "screen_name": "moonbirds",
+                                                                "indices": [
+                                                                    252,
+                                                                    262
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1480708619649921024",
+                                                                "name": "mfers",
+                                                                "screen_name": "unofficialmfers",
+                                                                "indices": [
+                                                                    277,
+                                                                    293
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1502099166822113283",
+                                                                "name": "Meebits",
+                                                                "screen_name": "MeebitsNFTs",
+                                                                "indices": [
+                                                                    308,
+                                                                    320
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1395553778187718657",
+                                                                "name": "Cool Cats",
+                                                                "screen_name": "coolcats",
+                                                                "indices": [
+                                                                    335,
+                                                                    344
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id_str": "1365372609903419395",
+                                                                "name": "VeeFriends",
+                                                                "screen_name": "veefriends",
+                                                                "indices": [
+                                                                    396,
+                                                                    407
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "grok_analysis_button": true,
+                                        "legacy": {
+                                            "bookmark_count": 203,
+                                            "bookmarked": false,
+                                            "created_at": "Sat Jan 24 18:15:45 +0000 2026",
+                                            "conversation_id_str": "2015126391990165712",
+                                            "display_text_range": [
+                                                0,
+                                                276
+                                            ],
+                                            "entities": {
+                                                "hashtags": [],
+                                                "symbols": [],
+                                                "timestamps": [],
+                                                "urls": [],
+                                                "user_mentions": [
+                                                    {
+                                                        "id_str": "1415078650039443456",
+                                                        "name": "Pudgy Penguins",
+                                                        "screen_name": "pudgypenguins",
+                                                        "indices": [
+                                                            7,
+                                                            21
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1513591185406836741",
+                                                        "name": "Good Vibes Club \uD83E\uDD19",
+                                                        "screen_name": "goodvibesclub",
+                                                        "indices": [
+                                                            36,
+                                                            50
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1432583226707484676",
+                                                        "name": "Azuki",
+                                                        "screen_name": "Azuki",
+                                                        "indices": [
+                                                            66,
+                                                            72
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1381699264011771906",
+                                                        "name": "Bored Ape Yacht Club \uD83C\uDF4C",
+                                                        "screen_name": "BoredApeYC",
+                                                        "indices": [
+                                                            88,
+                                                            99
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1405701429646430212",
+                                                        "name": "doodles",
+                                                        "screen_name": "doodles",
+                                                        "indices": [
+                                                            116,
+                                                            124
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1478970178931097601",
+                                                        "name": "Quirkies",
+                                                        "screen_name": "quirkiesnft",
+                                                        "indices": [
+                                                            140,
+                                                            152
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1414218489276125185",
+                                                        "name": "WoW",
+                                                        "screen_name": "worldofwomenxyz",
+                                                        "indices": [
+                                                            167,
+                                                            183
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1823105734705586176",
+                                                        "name": "re:generates",
+                                                        "screen_name": "re_generates",
+                                                        "indices": [
+                                                            198,
+                                                            211
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1476904518998794258",
+                                                        "name": "Chimpers",
+                                                        "screen_name": "ChimpersHQ",
+                                                        "indices": [
+                                                            226,
+                                                            237
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id_str": "1498857371547828224",
+                                                        "name": "Moonbirds",
+                                                        "screen_name": "moonbirds",
+                                                        "indices": [
+                                                            252,
+                                                            262
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            "favorite_count": 3078,
+                                            "favorited": false,
+                                            "full_text": "I want @pudgypenguins to win\nI want @goodvibesclub to win \nI want @Azuki to win \nI want @BoredApeYC  to win \nI want @doodles to win \nI want @quirkiesnft to win\nI want @worldofwomenxyz to win\nI want @re_generates to win\nI want @ChimpersHQ to win\nI want @moonbirds to win\nI want",
+                                            "is_quote_status": false,
+                                            "lang": "en",
+                                            "quote_count": 190,
+                                            "reply_count": 1230,
+                                            "retweet_count": 343,
+                                            "retweeted": false,
+                                            "user_id_str": "5768872",
+                                            "id_str": "2015126391990165712"
+                                        }
+                                    }
+                                },
+                                "legacy": {
+                                    "bookmark_count": 0,
+                                    "bookmarked": false,
+                                    "created_at": "Sun Jan 25 15:49:56 +0000 2026",
+                                    "conversation_id_str": "2015452082325651967",
+                                    "display_text_range": [
+                                        0,
+                                        59
+                                    ],
+                                    "entities": {
+                                        "hashtags": [],
+                                        "symbols": [],
+                                        "timestamps": [],
+                                        "urls": [],
+                                        "user_mentions": [
+                                            {
+                                                "id_str": "1905571145375776774",
+                                                "name": "Bad Bunnz",
+                                                "screen_name": "badbunnz_",
+                                                "indices": [
+                                                    42,
+                                                    52
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "favorite_count": 11,
+                                    "favorited": false,
+                                    "full_text": "I will work very very very very  hard for @badbunnz_ to win",
+                                    "is_quote_status": true,
+                                    "lang": "en",
+                                    "quote_count": 0,
+                                    "quoted_status_id_str": "2015126391990165712",
+                                    "quoted_status_permalink": {
+                                        "url": "https://t.co/4qwaBK0BFl",
+                                        "expanded": "https://twitter.com/garyvee/status/2015126391990165712",
+                                        "display": "x.com/garyvee/status…"
+                                    },
+                                    "reply_count": 2,
+                                    "retweet_count": 1,
+                                    "retweeted": false,
+                                    "user_id_str": "299202240",
+                                    "id_str": "2015452082325651967"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABAoCAAMKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAAHw8ADAMAAAAgAwACCgQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}

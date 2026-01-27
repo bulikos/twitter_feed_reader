@@ -1,0 +1,755 @@
+{
+    "entryId": "tweet-2015466406620578099",
+    "sortIndex": "2015474966740336622",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2015466406620578099",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoxMDM1NzIxNDk1",
+                                "rest_id": "1035721495",
+                                "affiliates_highlighted_label": {},
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1799188365302018048/adkupUUf_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Tue Dec 25 22:06:13 +0000 2012",
+                                    "name": "Zach Rynes | CLG",
+                                    "screen_name": "ChainLinkGod"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": true
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "Community Liaison @Chainlink | Opinions are my own",
+                                    "entities": {
+                                        "description": {
+                                            "urls": []
+                                        },
+                                        "url": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "chainlinkgod.com",
+                                                    "expanded_url": "http://chainlinkgod.com",
+                                                    "url": "https://t.co/FwrI3FNi4g",
+                                                    "indices": [
+                                                        0,
+                                                        23
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 268390,
+                                    "followers_count": 188248,
+                                    "friends_count": 3417,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 2592,
+                                    "media_count": 9229,
+                                    "normal_followers_count": 188248,
+                                    "pinned_tweet_ids_str": [
+                                        "1996713234104267027"
+                                    ],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1035721495/1761192084",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 82758,
+                                    "translator_type": "none",
+                                    "url": "https://t.co/FwrI3FNi4g",
+                                    "want_retweets": true,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": ""
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": false
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "professional": {
+                                    "rest_id": "1473085236791558148",
+                                    "professional_type": "Creator",
+                                    "category": []
+                                },
+                                "profile_bio": {
+                                    "description": "Community Liaison @Chainlink | Opinions are my own"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": true
+                                },
+                                "verification": {
+                                    "verified": false
+                                },
+                                "profile_description_language": "en"
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2015466406620578099"
+                        ],
+                        "editable_until_msecs": "1769363211550",
+                        "is_edit_eligible": false,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "state": "Enabled"
+                    },
+                    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                    "grok_analysis_button": true,
+                    "legacy": {
+                        "bookmark_count": 0,
+                        "bookmarked": false,
+                        "created_at": "Sun Jan 25 16:46:51 +0000 2026",
+                        "conversation_id_str": "2015466406620578099",
+                        "display_text_range": [
+                            0,
+                            140
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [],
+                            "user_mentions": [
+                                {
+                                    "id_str": "1035721495",
+                                    "name": "Zach Rynes | CLG",
+                                    "screen_name": "ChainLinkGod",
+                                    "indices": [
+                                        3,
+                                        16
+                                    ]
+                                }
+                            ]
+                        },
+                        "favorite_count": 0,
+                        "favorited": false,
+                        "full_text": "RT @ChainLinkGod: \"They're good negotiators, Sergey is an extremely smart man. He's a very good businessman, he kinda sees the future. He k…",
+                        "is_quote_status": false,
+                        "lang": "en",
+                        "quote_count": 0,
+                        "reply_count": 0,
+                        "retweet_count": 81,
+                        "retweeted": false,
+                        "user_id_str": "1035721495",
+                        "id_str": "2015466406620578099",
+                        "retweeted_status_result": {
+                            "result": {
+                                "__typename": "Tweet",
+                                "rest_id": "1962630256004866469",
+                                "core": {
+                                    "user_results": {
+                                        "result": {
+                                            "__typename": "User",
+                                            "id": "VXNlcjoxMDM1NzIxNDk1",
+                                            "rest_id": "1035721495",
+                                            "affiliates_highlighted_label": {},
+                                            "avatar": {
+                                                "image_url": "https://pbs.twimg.com/profile_images/1799188365302018048/adkupUUf_normal.jpg"
+                                            },
+                                            "core": {
+                                                "created_at": "Tue Dec 25 22:06:13 +0000 2012",
+                                                "name": "Zach Rynes | CLG",
+                                                "screen_name": "ChainLinkGod"
+                                            },
+                                            "dm_permissions": {
+                                                "can_dm": true
+                                            },
+                                            "follow_request_sent": false,
+                                            "has_graduated_access": true,
+                                            "is_blue_verified": true,
+                                            "legacy": {
+                                                "default_profile": true,
+                                                "default_profile_image": false,
+                                                "description": "Community Liaison @Chainlink | Opinions are my own",
+                                                "entities": {
+                                                    "description": {
+                                                        "urls": []
+                                                    },
+                                                    "url": {
+                                                        "urls": [
+                                                            {
+                                                                "display_url": "chainlinkgod.com",
+                                                                "expanded_url": "http://chainlinkgod.com",
+                                                                "url": "https://t.co/FwrI3FNi4g",
+                                                                "indices": [
+                                                                    0,
+                                                                    23
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                },
+                                                "fast_followers_count": 0,
+                                                "favourites_count": 268390,
+                                                "followers_count": 188248,
+                                                "friends_count": 3417,
+                                                "has_custom_timelines": true,
+                                                "is_translator": false,
+                                                "listed_count": 2592,
+                                                "media_count": 9229,
+                                                "normal_followers_count": 188248,
+                                                "pinned_tweet_ids_str": [
+                                                    "1996713234104267027"
+                                                ],
+                                                "possibly_sensitive": false,
+                                                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1035721495/1761192084",
+                                                "profile_interstitial_type": "",
+                                                "statuses_count": 82758,
+                                                "translator_type": "none",
+                                                "url": "https://t.co/FwrI3FNi4g",
+                                                "want_retweets": true,
+                                                "withheld_in_countries": []
+                                            },
+                                            "location": {
+                                                "location": ""
+                                            },
+                                            "media_permissions": {
+                                                "can_media_tag": false
+                                            },
+                                            "parody_commentary_fan_label": "None",
+                                            "profile_image_shape": "Circle",
+                                            "professional": {
+                                                "rest_id": "1473085236791558148",
+                                                "professional_type": "Creator",
+                                                "category": []
+                                            },
+                                            "profile_bio": {
+                                                "description": "Community Liaison @Chainlink | Opinions are my own"
+                                            },
+                                            "privacy": {
+                                                "protected": false
+                                            },
+                                            "relationship_perspectives": {
+                                                "following": true
+                                            },
+                                            "verification": {
+                                                "verified": false
+                                            },
+                                            "profile_description_language": "en"
+                                        }
+                                    }
+                                },
+                                "unmention_data": {},
+                                "edit_control": {
+                                    "edit_tweet_ids": [
+                                        "1962630256004866469"
+                                    ],
+                                    "editable_until_msecs": "1756766091000",
+                                    "is_edit_eligible": true,
+                                    "edits_remaining": "5"
+                                },
+                                "is_translatable": false,
+                                "views": {
+                                    "count": "37472",
+                                    "state": "EnabledWithCount"
+                                },
+                                "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                                "grok_analysis_button": true,
+                                "legacy": {
+                                    "bookmark_count": 34,
+                                    "bookmarked": false,
+                                    "created_at": "Mon Sep 01 21:34:51 +0000 2025",
+                                    "conversation_id_str": "1962630256004866469",
+                                    "display_text_range": [
+                                        0,
+                                        247
+                                    ],
+                                    "entities": {
+                                        "hashtags": [],
+                                        "media": [
+                                            {
+                                                "display_url": "pic.x.com/Teeqgjld7B",
+                                                "expanded_url": "https://x.com/ARiHBARi/status/1962193042514771997/video/1",
+                                                "id_str": "1962192147924324352",
+                                                "indices": [
+                                                    224,
+                                                    247
+                                                ],
+                                                "media_key": "13_1962192147924324352",
+                                                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1962192147924324352/img/19Km3uUlIyC4ATEU.jpg",
+                                                "source_status_id_str": "1962193042514771997",
+                                                "source_user_id_str": "1429901979078336520",
+                                                "type": "video",
+                                                "url": "https://t.co/Teeqgjld7B",
+                                                "additional_media_info": {
+                                                    "monetizable": false,
+                                                    "source_user": {
+                                                        "user_results": {
+                                                            "result": {
+                                                                "__typename": "User",
+                                                                "id": "VXNlcjoxNDI5OTAxOTc5MDc4MzM2NTIw",
+                                                                "rest_id": "1429901979078336520",
+                                                                "affiliates_highlighted_label": {},
+                                                                "avatar": {
+                                                                    "image_url": "https://pbs.twimg.com/profile_images/1674520603426955264/Cs-Gsv6j_normal.png"
+                                                                },
+                                                                "core": {
+                                                                    "created_at": "Mon Aug 23 20:23:08 +0000 2021",
+                                                                    "name": "LinkTOAD General HBARI",
+                                                                    "screen_name": "ARiHBARi"
+                                                                },
+                                                                "dm_permissions": {
+                                                                    "can_dm": true
+                                                                },
+                                                                "follow_request_sent": false,
+                                                                "has_graduated_access": true,
+                                                                "is_blue_verified": true,
+                                                                "legacy": {
+                                                                    "default_profile": true,
+                                                                    "default_profile_image": false,
+                                                                    "description": "2020 PLTR, LINK, HOOD, TSLA & RE Investor                                                           \n\nPLTR Discord https://t.co/efseyySy0e",
+                                                                    "entities": {
+                                                                        "description": {
+                                                                            "urls": [
+                                                                                {
+                                                                                    "display_url": "discord.gg/89wdUHWK9c",
+                                                                                    "expanded_url": "http://discord.gg/89wdUHWK9c",
+                                                                                    "url": "https://t.co/efseyySy0e",
+                                                                                    "indices": [
+                                                                                        115,
+                                                                                        138
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "url": {
+                                                                            "urls": [
+                                                                                {
+                                                                                    "display_url": "opensea.io/collection/lto…",
+                                                                                    "expanded_url": "https://opensea.io/collection/ltoad",
+                                                                                    "url": "https://t.co/5OJRvl0svP",
+                                                                                    "indices": [
+                                                                                        0,
+                                                                                        23
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "fast_followers_count": 0,
+                                                                    "favourites_count": 60342,
+                                                                    "followers_count": 6013,
+                                                                    "friends_count": 576,
+                                                                    "has_custom_timelines": true,
+                                                                    "is_translator": false,
+                                                                    "listed_count": 50,
+                                                                    "media_count": 4047,
+                                                                    "normal_followers_count": 6013,
+                                                                    "pinned_tweet_ids_str": [
+                                                                        "1946307355831853364"
+                                                                    ],
+                                                                    "possibly_sensitive": false,
+                                                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1429901979078336520/1748450895",
+                                                                    "profile_interstitial_type": "",
+                                                                    "statuses_count": 35157,
+                                                                    "translator_type": "none",
+                                                                    "url": "https://t.co/5OJRvl0svP",
+                                                                    "want_retweets": false,
+                                                                    "withheld_in_countries": []
+                                                                },
+                                                                "location": {
+                                                                    "location": "Alex Karps Barn"
+                                                                },
+                                                                "media_permissions": {
+                                                                    "can_media_tag": true
+                                                                },
+                                                                "parody_commentary_fan_label": "None",
+                                                                "profile_image_shape": "Circle",
+                                                                "professional": {
+                                                                    "rest_id": "1542543670888599552",
+                                                                    "professional_type": "Creator",
+                                                                    "category": [
+                                                                        {
+                                                                            "id": 934,
+                                                                            "name": "Social Media Influencer",
+                                                                            "icon_name": "IconBriefcaseStroke"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "profile_bio": {
+                                                                    "description": "2020 PLTR, LINK, HOOD, TSLA & RE Investor                                                           \n\nPLTR Discord https://t.co/efseyySy0e"
+                                                                },
+                                                                "privacy": {
+                                                                    "protected": false
+                                                                },
+                                                                "relationship_perspectives": {
+                                                                    "following": false
+                                                                },
+                                                                "verification": {
+                                                                    "verified": false
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "ext_media_availability": {
+                                                    "status": "Available"
+                                                },
+                                                "sizes": {
+                                                    "large": {
+                                                        "h": 1122,
+                                                        "w": 2048,
+                                                        "resize": "fit"
+                                                    },
+                                                    "medium": {
+                                                        "h": 658,
+                                                        "w": 1200,
+                                                        "resize": "fit"
+                                                    },
+                                                    "small": {
+                                                        "h": 373,
+                                                        "w": 680,
+                                                        "resize": "fit"
+                                                    },
+                                                    "thumb": {
+                                                        "h": 150,
+                                                        "w": 150,
+                                                        "resize": "crop"
+                                                    }
+                                                },
+                                                "original_info": {
+                                                    "height": 1516,
+                                                    "width": 2766,
+                                                    "focus_rects": []
+                                                },
+                                                "allow_download_status": {
+                                                    "allow_download": true
+                                                },
+                                                "video_info": {
+                                                    "aspect_ratio": [
+                                                        1383,
+                                                        758
+                                                    ],
+                                                    "duration_millis": 22366,
+                                                    "variants": [
+                                                        {
+                                                            "content_type": "application/x-mpegURL",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/pl/hwgbUGcxEvBjzkGn.m3u8?tag=21&v=7cd"
+                                                        },
+                                                        {
+                                                            "bitrate": 256000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/492x270/sn6lNscjOtmKtpkD.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 832000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/656x360/dm9C3D5UFsdw9aPe.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 2176000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/1312x720/0YRQBs36saVsnY9a.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 10368000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/1970x1080/o4tLu0Oa0XEvA7MC.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 25128000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/2766x1516/3OFjV9i4ia3D6FAI.mp4?tag=21"
+                                                        }
+                                                    ]
+                                                },
+                                                "media_results": {
+                                                    "result": {
+                                                        "media_key": "13_1962192147924324352"
+                                                    }
+                                                }
+                                            }
+                                        ],
+                                        "symbols": [
+                                            {
+                                                "indices": [
+                                                    213,
+                                                    218
+                                                ],
+                                                "text": "LINK"
+                                            },
+                                            {
+                                                "indices": [
+                                                    219,
+                                                    223
+                                                ],
+                                                "text": "ADA"
+                                            }
+                                        ],
+                                        "timestamps": [],
+                                        "urls": [],
+                                        "user_mentions": [
+                                            {
+                                                "id_str": "1376161898",
+                                                "name": "Charles Hoskinson",
+                                                "screen_name": "IOHK_Charles",
+                                                "indices": [
+                                                    185,
+                                                    198
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    "extended_entities": {
+                                        "media": [
+                                            {
+                                                "display_url": "pic.x.com/Teeqgjld7B",
+                                                "expanded_url": "https://x.com/ARiHBARi/status/1962193042514771997/video/1",
+                                                "id_str": "1962192147924324352",
+                                                "indices": [
+                                                    224,
+                                                    247
+                                                ],
+                                                "media_key": "13_1962192147924324352",
+                                                "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/1962192147924324352/img/19Km3uUlIyC4ATEU.jpg",
+                                                "source_status_id_str": "1962193042514771997",
+                                                "source_user_id_str": "1429901979078336520",
+                                                "type": "video",
+                                                "url": "https://t.co/Teeqgjld7B",
+                                                "additional_media_info": {
+                                                    "monetizable": false,
+                                                    "source_user": {
+                                                        "user_results": {
+                                                            "result": {
+                                                                "__typename": "User",
+                                                                "id": "VXNlcjoxNDI5OTAxOTc5MDc4MzM2NTIw",
+                                                                "rest_id": "1429901979078336520",
+                                                                "affiliates_highlighted_label": {},
+                                                                "avatar": {
+                                                                    "image_url": "https://pbs.twimg.com/profile_images/1674520603426955264/Cs-Gsv6j_normal.png"
+                                                                },
+                                                                "core": {
+                                                                    "created_at": "Mon Aug 23 20:23:08 +0000 2021",
+                                                                    "name": "LinkTOAD General HBARI",
+                                                                    "screen_name": "ARiHBARi"
+                                                                },
+                                                                "dm_permissions": {
+                                                                    "can_dm": true
+                                                                },
+                                                                "follow_request_sent": false,
+                                                                "has_graduated_access": true,
+                                                                "is_blue_verified": true,
+                                                                "legacy": {
+                                                                    "default_profile": true,
+                                                                    "default_profile_image": false,
+                                                                    "description": "2020 PLTR, LINK, HOOD, TSLA & RE Investor                                                           \n\nPLTR Discord https://t.co/efseyySy0e",
+                                                                    "entities": {
+                                                                        "description": {
+                                                                            "urls": [
+                                                                                {
+                                                                                    "display_url": "discord.gg/89wdUHWK9c",
+                                                                                    "expanded_url": "http://discord.gg/89wdUHWK9c",
+                                                                                    "url": "https://t.co/efseyySy0e",
+                                                                                    "indices": [
+                                                                                        115,
+                                                                                        138
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "url": {
+                                                                            "urls": [
+                                                                                {
+                                                                                    "display_url": "opensea.io/collection/lto…",
+                                                                                    "expanded_url": "https://opensea.io/collection/ltoad",
+                                                                                    "url": "https://t.co/5OJRvl0svP",
+                                                                                    "indices": [
+                                                                                        0,
+                                                                                        23
+                                                                                    ]
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    "fast_followers_count": 0,
+                                                                    "favourites_count": 60342,
+                                                                    "followers_count": 6013,
+                                                                    "friends_count": 576,
+                                                                    "has_custom_timelines": true,
+                                                                    "is_translator": false,
+                                                                    "listed_count": 50,
+                                                                    "media_count": 4047,
+                                                                    "normal_followers_count": 6013,
+                                                                    "pinned_tweet_ids_str": [
+                                                                        "1946307355831853364"
+                                                                    ],
+                                                                    "possibly_sensitive": false,
+                                                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1429901979078336520/1748450895",
+                                                                    "profile_interstitial_type": "",
+                                                                    "statuses_count": 35157,
+                                                                    "translator_type": "none",
+                                                                    "url": "https://t.co/5OJRvl0svP",
+                                                                    "want_retweets": false,
+                                                                    "withheld_in_countries": []
+                                                                },
+                                                                "location": {
+                                                                    "location": "Alex Karps Barn"
+                                                                },
+                                                                "media_permissions": {
+                                                                    "can_media_tag": true
+                                                                },
+                                                                "parody_commentary_fan_label": "None",
+                                                                "profile_image_shape": "Circle",
+                                                                "professional": {
+                                                                    "rest_id": "1542543670888599552",
+                                                                    "professional_type": "Creator",
+                                                                    "category": [
+                                                                        {
+                                                                            "id": 934,
+                                                                            "name": "Social Media Influencer",
+                                                                            "icon_name": "IconBriefcaseStroke"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                "profile_bio": {
+                                                                    "description": "2020 PLTR, LINK, HOOD, TSLA & RE Investor                                                           \n\nPLTR Discord https://t.co/efseyySy0e"
+                                                                },
+                                                                "privacy": {
+                                                                    "protected": false
+                                                                },
+                                                                "relationship_perspectives": {
+                                                                    "following": false
+                                                                },
+                                                                "verification": {
+                                                                    "verified": false
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "ext_media_availability": {
+                                                    "status": "Available"
+                                                },
+                                                "sizes": {
+                                                    "large": {
+                                                        "h": 1122,
+                                                        "w": 2048,
+                                                        "resize": "fit"
+                                                    },
+                                                    "medium": {
+                                                        "h": 658,
+                                                        "w": 1200,
+                                                        "resize": "fit"
+                                                    },
+                                                    "small": {
+                                                        "h": 373,
+                                                        "w": 680,
+                                                        "resize": "fit"
+                                                    },
+                                                    "thumb": {
+                                                        "h": 150,
+                                                        "w": 150,
+                                                        "resize": "crop"
+                                                    }
+                                                },
+                                                "original_info": {
+                                                    "height": 1516,
+                                                    "width": 2766,
+                                                    "focus_rects": []
+                                                },
+                                                "allow_download_status": {
+                                                    "allow_download": true
+                                                },
+                                                "video_info": {
+                                                    "aspect_ratio": [
+                                                        1383,
+                                                        758
+                                                    ],
+                                                    "duration_millis": 22366,
+                                                    "variants": [
+                                                        {
+                                                            "content_type": "application/x-mpegURL",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/pl/hwgbUGcxEvBjzkGn.m3u8?tag=21&v=7cd"
+                                                        },
+                                                        {
+                                                            "bitrate": 256000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/492x270/sn6lNscjOtmKtpkD.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 832000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/656x360/dm9C3D5UFsdw9aPe.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 2176000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/1312x720/0YRQBs36saVsnY9a.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 10368000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/1970x1080/o4tLu0Oa0XEvA7MC.mp4?tag=21"
+                                                        },
+                                                        {
+                                                            "bitrate": 25128000,
+                                                            "content_type": "video/mp4",
+                                                            "url": "https://video.twimg.com/amplify_video/1962192147924324352/vid/avc1/2766x1516/3OFjV9i4ia3D6FAI.mp4?tag=21"
+                                                        }
+                                                    ]
+                                                },
+                                                "media_results": {
+                                                    "result": {
+                                                        "media_key": "13_1962192147924324352"
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    "favorite_count": 949,
+                                    "favorited": false,
+                                    "full_text": "\"They're good negotiators, Sergey is an extremely smart man. He's a very good businessman, he kinda sees the future. He knows he's sitting on a golden egg. He knows what he's worth.\" - @IOHK_Charles on Chainlink\n\n$LINK $ADA\nhttps://t.co/Teeqgjld7B",
+                                    "is_quote_status": false,
+                                    "lang": "en",
+                                    "possibly_sensitive": false,
+                                    "possibly_sensitive_editable": true,
+                                    "quote_count": 2,
+                                    "reply_count": 42,
+                                    "retweet_count": 81,
+                                    "retweeted": false,
+                                    "user_id_str": "1035721495",
+                                    "id_str": "1962630256004866469"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABAoCAAMKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAAEg8ADAMAAAAgAwACCgQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}

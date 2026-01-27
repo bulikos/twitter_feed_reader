@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    volumes:
+      # Mount the local 'app' package into the container's source root
+      # Structure becomes: /src/app/main.py
+      - ./app:/src/app
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python -m app.main

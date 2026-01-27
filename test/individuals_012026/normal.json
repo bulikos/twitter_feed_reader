@@ -1,0 +1,183 @@
+{
+    "entryId": "tweet-2015470180562841865",
+    "sortIndex": "2015474966740336631",
+    "content": {
+        "entryType": "TimelineTimelineItem",
+        "__typename": "TimelineTimelineItem",
+        "itemContent": {
+            "itemType": "TimelineTweet",
+            "__typename": "TimelineTweet",
+            "tweet_results": {
+                "result": {
+                    "__typename": "Tweet",
+                    "rest_id": "2015470180562841865",
+                    "core": {
+                        "user_results": {
+                            "result": {
+                                "__typename": "User",
+                                "id": "VXNlcjoxMzA5ODg2MjAxOTQ0NDczNjAw",
+                                "rest_id": "1309886201944473600",
+                                "affiliates_highlighted_label": {
+                                    "label": {
+                                        "url": {
+                                            "url": "https://twitter.com/heliuslabs",
+                                            "urlType": "DeepLink"
+                                        },
+                                        "badge": {
+                                            "url": "https://pbs.twimg.com/profile_images/1676292138617675784/BNf4F9-d_bigger.jpg"
+                                        },
+                                        "description": "Helius",
+                                        "userLabelType": "BusinessLabel",
+                                        "userLabelDisplayType": "Badge"
+                                    }
+                                },
+                                "avatar": {
+                                    "image_url": "https://pbs.twimg.com/profile_images/1975912876243095552/YlVLO4Oz_normal.jpg"
+                                },
+                                "core": {
+                                    "created_at": "Sat Sep 26 16:03:08 +0000 2020",
+                                    "name": "mert",
+                                    "screen_name": "mert"
+                                },
+                                "dm_permissions": {
+                                    "can_dm": true
+                                },
+                                "follow_request_sent": false,
+                                "has_graduated_access": true,
+                                "is_blue_verified": true,
+                                "legacy": {
+                                    "default_profile": true,
+                                    "default_profile_image": false,
+                                    "description": "ceo @heliuslabs, @checkprice — Solana RPCs, APIs, and trading infra: https://t.co/J2To2MzHwd — physics, privacy, poetry",
+                                    "entities": {
+                                        "description": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "helius.dev",
+                                                    "expanded_url": "http://helius.dev",
+                                                    "url": "https://t.co/J2To2MzHwd",
+                                                    "indices": [
+                                                        69,
+                                                        92
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "url": {
+                                            "urls": [
+                                                {
+                                                    "display_url": "checkprice.com",
+                                                    "expanded_url": "http://checkprice.com",
+                                                    "url": "https://t.co/zwLxwZnghx",
+                                                    "indices": [
+                                                        0,
+                                                        23
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "fast_followers_count": 0,
+                                    "favourites_count": 145219,
+                                    "followers_count": 314521,
+                                    "friends_count": 2415,
+                                    "has_custom_timelines": true,
+                                    "is_translator": false,
+                                    "listed_count": 4193,
+                                    "media_count": 8710,
+                                    "normal_followers_count": 314521,
+                                    "pinned_tweet_ids_str": [
+                                        "1985831835809825260"
+                                    ],
+                                    "possibly_sensitive": false,
+                                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/1309886201944473600/1762438213",
+                                    "profile_interstitial_type": "",
+                                    "statuses_count": 70407,
+                                    "translator_type": "none",
+                                    "url": "https://t.co/zwLxwZnghx",
+                                    "want_retweets": true,
+                                    "withheld_in_countries": []
+                                },
+                                "location": {
+                                    "location": ""
+                                },
+                                "media_permissions": {
+                                    "can_media_tag": false
+                                },
+                                "parody_commentary_fan_label": "None",
+                                "profile_image_shape": "Circle",
+                                "profile_bio": {
+                                    "description": "ceo @heliuslabs, @checkprice — Solana RPCs, APIs, and trading infra: https://t.co/J2To2MzHwd — physics, privacy, poetry"
+                                },
+                                "privacy": {
+                                    "protected": false
+                                },
+                                "relationship_perspectives": {
+                                    "following": true
+                                },
+                                "verification": {
+                                    "verified": false
+                                }
+                            }
+                        }
+                    },
+                    "unmention_data": {},
+                    "edit_control": {
+                        "edit_tweet_ids": [
+                            "2015470180562841865"
+                        ],
+                        "editable_until_msecs": "1769364111000",
+                        "is_edit_eligible": true,
+                        "edits_remaining": "5"
+                    },
+                    "is_translatable": false,
+                    "views": {
+                        "count": "3609",
+                        "state": "EnabledWithCount"
+                    },
+                    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+                    "grok_analysis_button": true,
+                    "legacy": {
+                        "bookmark_count": 3,
+                        "bookmarked": false,
+                        "created_at": "Sun Jan 25 17:01:51 +0000 2026",
+                        "conversation_id_str": "2015470180562841865",
+                        "display_text_range": [
+                            0,
+                            278
+                        ],
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "timestamps": [],
+                            "urls": [],
+                            "user_mentions": []
+                        },
+                        "favorite_count": 97,
+                        "favorited": false,
+                        "full_text": "the single most underpriced asset on planet earth is encrypted money\n\ndemand for it will continue to rise as geopolitics and monetary policies increase in volatility and all transactions become digital via crypto and AI\n\nyou encrypt your messages, but not your money\n\ninevitable",
+                        "is_quote_status": false,
+                        "lang": "en",
+                        "quote_count": 2,
+                        "reply_count": 33,
+                        "retweet_count": 6,
+                        "retweeted": false,
+                        "user_id_str": "1309886201944473600",
+                        "id_str": "2015470180562841865"
+                    }
+                }
+            },
+            "tweetDisplayType": "Tweet"
+        },
+        "clientEventInfo": {
+            "component": "following_in_network",
+            "element": "tweet",
+            "details": {
+                "timelinesDetails": {
+                    "injectionType": "FollowingInNetwork",
+                    "controllerData": "DAACDAABDAABCgABAEAABAoCAAEKAAKAAAAAAAEhAAoACbNS43Ayn3zGCAALAAAACQ8ADAMAAAAgAQACCgQAQAAAIQEAAAAAgAAAAAAAAAAAAAAAAAAA4AEKAA706ZPpFG1OHgAAAAA="
+                }
+            }
+        }
+    }
+}
