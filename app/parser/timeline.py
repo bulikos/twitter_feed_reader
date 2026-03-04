@@ -1,13 +1,13 @@
 import logging
 import time
-
-from typing import Dict, Any, List, Optional, Tuple
 from dataclasses import dataclass
+from typing import Any
 
 from ..models import Tweet
 from .item import ItemParser
 
 logger = logging.getLogger(__name__)
+
 
 @dataclass
 class TimelineStats:
@@ -19,92 +19,93 @@ class TimelineStats:
     total_items_loaded: int = 0
     parse_duration_s: float = 0.0
 
+
 class TimelineParser:
     def __init__(self):
         self.item_parser = ItemParser()
         self.stats = TimelineStats()
 
-    def parse(self, data: Dict[str, Any]) -> Tuple[List[Tweet], Optional[str]]:
+    def parse(self, data: dict[str, Any]) -> tuple[list[Tweet], str | None]:
         start_time = time.time()
-        tweets: List[Tweet] = []
-        next_cursor: Optional[str] = None
-        
+        tweets: list[Tweet] = []
+        next_cursor: str | None = None
+
         try:
             instructions = self._extract_instructions(data)
             if not instructions:
                 logger.warning("No instructions found in timeline response")
                 return [], None
-            
+
             for instruction in instructions:
-                type_ = instruction.get('type')
-                if type_ == 'TimelineAddEntries':
-                    for entry in instruction['entries']:
+                type_ = instruction.get("type")
+                if type_ == "TimelineAddEntries":
+                    for entry in instruction["entries"]:
                         new_tweets, cursor = self._parse_entry(entry)
                         tweets.extend(new_tweets)
                         if cursor:
                             next_cursor = cursor
-                            
+
         except Exception as e:
-            logger.error(f"Error parsing timeline: {e}")
-            
+            logger.error("Error parsing timeline: %s", e, exc_info=True)
+
         self.stats.parse_duration_s = round(time.time() - start_time, 5)
         return tweets, next_cursor
 
-    def _extract_instructions(self, data: Dict[str, Any]) -> List[Dict[str, Any]]:
-        home = data.get('data', {}).get('home', {})
+    def _extract_instructions(self, data: dict[str, Any]) -> list[dict[str, Any]]:
+        home = data.get("data", {}).get("home", {})
         # Dynamic key lookup for "timeline_urt"
-        timeline_key = next((k for k in home.keys() if k.endswith('timeline_urt')), None)
+        timeline_key = next((k for k in home.keys() if k.endswith("timeline_urt")), None)
         if timeline_key:
-            return home[timeline_key].get('instructions', [])
+            return home[timeline_key].get("instructions", [])
         return []
 
-    def _parse_entry(self, entry: Dict[str, Any]) -> Tuple[List[Tweet], Optional[str]]:
+    def _parse_entry(self, entry: dict[str, Any]) -> tuple[list[Tweet], str | None]:
         """Parses a single entry (Tweet, Module, or Cursor) and returns tweets and/or cursor."""
-        entry_id = entry.get('entryId', '')
+        entry_id = entry.get("entryId", "")
         tweets = []
         cursor = None
-        
+
         self.stats.total_entries += 1
 
         try:
             # 1. Standard Tweet
-            if entry_id.startswith('tweet-'):
+            if entry_id.startswith("tweet-"):
                 self.stats.entries_tweet += 1
-                content = entry['content']['itemContent']['tweet_results']['result']
+                content = entry["content"]["itemContent"]["tweet_results"]["result"]
                 tweets = self.item_parser.parse_tweet_result(content, source="timeline")
                 self.stats.total_items_loaded += len(tweets)
-            
+
             # 2. Thread / Conversation Module
-            elif entry.get('content', {}).get('entryType') == 'TimelineTimelineModule':
+            elif entry.get("content", {}).get("entryType") == "TimelineTimelineModule":
                 self.stats.entries_module += 1
-                
-                items = entry['content']['items']
+
+                items = entry["content"]["items"]
                 for item in items:
-                    if item['item']['itemContent']['itemType'] == 'TimelineTweet':
-                        content = item['item']['itemContent']['tweet_results']['result']
+                    if item["item"]["itemContent"]["itemType"] == "TimelineTweet":
+                        content = item["item"]["itemContent"]["tweet_results"]["result"]
                         # We parse strictly for extraction
                         mod_tweets = self.item_parser.parse_tweet_result(content, source="timeline_conversation")
                         tweets.extend(mod_tweets)
                         self.stats.items_from_module += len(mod_tweets)
                         self.stats.total_items_loaded += len(mod_tweets)
-            
+
             # 3. Cursor
-            elif entry_id.startswith('cursor-bottom-'):
+            elif entry_id.startswith("cursor-bottom-"):
                 self.stats.entries_cursor += 1
                 # Ignore bottom cursor, we don't need it
-                #cursor = entry['content']['value']
+                # cursor = entry['content']['value']
 
             # 4. Cursor
-            elif entry_id.startswith('cursor-top-'):
+            elif entry_id.startswith("cursor-top-"):
                 self.stats.entries_cursor += 1
-                cursor = entry['content']['value']
-            
+                cursor = entry["content"]["value"]
+
             # 5. Else
             else:
-                logger.debug(f"Unhandled entry: {entry_id} Type: {entry.get('content', {}).get('entryType')}")
+                logger.debug("Unhandled entry: %s Type: %s", entry_id, entry.get("content", {}).get("entryType"))
 
         except Exception as e:
-            logger.debug(f"Failed to parse entry {entry_id}: {e}")
+            logger.debug("Failed to parse entry %s: %s", entry_id, e)
             pass
-            
+
         return tweets, cursor

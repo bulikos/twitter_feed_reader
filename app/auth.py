@@ -1,6 +1,6 @@
-from dataclasses import dataclass
-from typing import Dict
 import os
+from dataclasses import dataclass
+
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -12,12 +12,12 @@ class Account:
     csrf_token: str
     auth_token: str
     guest_id: str
-    
+
     @property
-    def headers(self) -> Dict[str, str]:
+    def headers(self) -> dict[str, str]:
         # Using a fixed transaction ID for now, or could generate dynamic
         transaction_id = "vskJBlMoqtAmJzTKldvzYgeFc/pdO7uqPVydcXPSd9TfSn+idNvXx8ht8wgIF++4TW7Hn7v3nytlgjV8fyGLe14OMDWvvQ"
-        
+
         return {
             "accept": "*/*",
             "accept-language": "en-GB,en-US;q=0.9,en;q=0.8,cs;q=0.7",
@@ -40,7 +40,7 @@ class Account:
         }
 
     @property
-    def cookies(self) -> Dict[str, str]:
+    def cookies(self) -> dict[str, str]:
         return {
             "dnt": "1",
             "twtr_pixel_opt_in": "Y",

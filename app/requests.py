@@ -1,16 +1,16 @@
-import json
 from dataclasses import dataclass
-from typing import Optional, Dict, Any
+from typing import Any
+
 
 @dataclass
 class BaseRequest:
     endpoint: str = ""
     query_id: str = ""
-    
-    def get_variables(self) -> Dict[str, Any]:
+
+    def get_variables(self) -> dict[str, Any]:
         return {}
-        
-    def get_features(self) -> Dict[str, Any]:
+
+    def get_features(self) -> dict[str, Any]:
         # Common features found in latest captures
         return {
             "rweb_video_screen_enabled": False,
@@ -54,44 +54,44 @@ class BaseRequest:
 @dataclass
 class RequestTimeline(BaseRequest):
     feed_type: str = "for_you"
-    cursor: Optional[str] = None
+    cursor: str | None = None
     ranking: bool = False
-    
+
     def __post_init__(self):
         if self.feed_type == "for_you":
-            self.query_id = "GP_SvUI4lAFrt6UyEnkAGA" 
+            self.query_id = "GP_SvUI4lAFrt6UyEnkAGA"
             self.endpoint = "HomeTimeline"
         elif self.feed_type == "following":
             self.query_id = "HN6oP_7h7HayqyYimz97Iw"
             self.endpoint = "HomeLatestTimeline"
-    
-    def get_variables(self) -> Dict[str, Any]:
+
+    def get_variables(self) -> dict[str, Any]:
         variables = {
             "count": 20,
             "includePromotedContent": True,
             "requestContext": "launch" if not self.cursor else "ptr",
         }
-        
+
         if self.feed_type == "for_you":
             variables["withCommunity"] = True
         elif self.feed_type == "following":
              variables["enableRanking"] = self.ranking
-             
+
         if self.cursor:
             variables["cursor"] = self.cursor
-            
+
         return variables
 
 @dataclass
 class RequestDetail(BaseRequest):
     focal_tweet_id: str = ""
-    cursor: Optional[str] = None
-    
+    cursor: str | None = None
+
     def __post_init__(self):
         self.query_id = "nK2WM0mHJKd2-jb6qhmfWA"
         self.endpoint = "TweetDetail"
-        
-    def get_variables(self) -> Dict[str, Any]:
+
+    def get_variables(self) -> dict[str, Any]:
         return {
             "focalTweetId": self.focal_tweet_id,
             "with_rux_injections": False,
@@ -101,14 +101,14 @@ class RequestDetail(BaseRequest):
             "withQuickPromoteEligibilityTweetFields": True,
             "withBirdwatchNotes": True,
             "withVoice": True,
-            # Cursor support for conversation threads if needed, 
+            # Cursor support for conversation threads if needed,
             # though usually handled by separate 'cursor' instruction logic not variable?
-            # Actually TweetDetail variables usually don't take a standard pagination cursor 
+            # Actually TweetDetail variables usually don't take a standard pagination cursor
             # in the same way, but let's keep it extensible.
-            # "cursor": self.cursor 
+            # "cursor": self.cursor
         }
 
-    def get_field_toggles(self) -> Dict[str, Any]:
+    def get_field_toggles(self) -> dict[str, Any]:
         return {
             "withArticleRichContentState": True,
             "withArticlePlainText": False,

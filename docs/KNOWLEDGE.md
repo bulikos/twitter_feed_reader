@@ -49,3 +49,61 @@ The response is a deeply nested JSON structure:
 
 - **Tweets**: Found in `TimelineAddEntries` -> `entries` -> `content.itemContent.tweet_results.result`.
 - **Cursors**: Found in `TimelineAddEntries` -> `entries` (entryId starting with `cursor-bottom-`).
+
+## Anti-Duplication via seenTweetIds
+
+The `seenTweetIds` variable in the request body is a list of tweet IDs already seen by the client.
+Sending it prevents X from returning those tweets again in the response.
+
+**Benefits:**
+- Smaller response payloads (fewer bytes to download)
+- Faster download time (measurable ~0.1–0.2s reduction)
+- Cleaner responses — no need to filter already-processed tweets on the client side
+
+**Implementation:** Maintain a rolling set of recently seen tweet IDs. Append to the `variables` dict before each request:
+```python
+variables["seenTweetIds"] = list(seen_ids)  # list of id strings
+```
+Keep the set bounded (e.g. last 200 IDs) to avoid bloating request size.
+
+## Geographic Proximity (Latency Reduction)
+
+X's API servers are primarily located in **US East (Ashburn, VA)** and **US West (Oregon/California)**.
+
+Running the scraper on a cloud instance in the same region reduces round-trip download time:
+
+| Server location | Typical download time |
+|---|---|
+| Europe (current) | ~0.3–0.6s |
+| US East (Ashburn) | ~0.05–0.15s |
+| US West | ~0.08–0.20s |
+
+Savings of ~0.2–0.4s per request — small in absolute terms but meaningful at sub-5s total latency targets.
+Recommended: AWS `us-east-1` (N. Virginia) or `us-west-2` (Oregon).
+
+## X Browser Real-Time Mechanism — SSE, not WebSocket
+
+**Verified March 2026:** X.com does NOT use WebSockets (`wss://`) for real-time timeline updates.
+Chrome DevTools → Network → WS filter shows zero connections.
+
+X uses **Server-Sent Events (SSE)** — visible in DevTools as:
+- A long-lived `(pending)` HTTP request under `Network → Other`
+- `Content-Type: text/event-stream`
+
+**How it works:**
+1. Browser holds an open SSE connection to X
+2. X pushes a lightweight "new tweets available" signal when they appear
+3. Browser fires a normal `HomeLatestTimeline` GraphQL poll in response
+
+**Implication for scraping:** The SSE is just a wake-up signal — it doesn't carry tweet content.
+The actual data comes from the same `HomeLatestTimeline` endpoint we already use.
+
+**Optimal scraping strategy (in order of ROI):**
+
+| Approach | Complexity | Avg detection improvement |
+|---|---|---|
+| Reduce polling 30s → 5s | Trivial | −12.5s |
+| Multiple accounts × N, time-offset | Low | scales linearly |
+| Replicate SSE wake-up signal | High, brittle | −2s marginal |
+
+Replicating SSE is high maintenance for marginal gain. Multiple accounts + tight polling is the pragmatic path.

@@ -1,76 +1,90 @@
 import asyncio
 import logging
-import sys
 import os
 
-from .client import XClient
 from .auth import load_account
-from .orchestrator import Orchestrator
 from .catalogue import Catalogue
-from .article_generator import ArticleGenerator
+from .client import XClient
+from .database import close_pool, init_pool
+from .orchestrator import Orchestrator
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
+
+
+async def cleanup_old_data(pool):
+    """
+    Periodically deletes catalogue entries older than 30 days.
+    Runs every hour.
+    """
+    while True:
+        try:
+            await asyncio.sleep(3600)  # Run every hour
+            async with pool.acquire() as conn:
+                result = await conn.execute("DELETE FROM tweet_catalogue WHERE created_at < NOW() - INTERVAL '30 days'")
+                # result is a string like "DELETE 42"
+                deleted_count = result.split(" ")[-1]
+                logger.info("Cleanup: deleted %s entries older than 30 days", deleted_count)
+        except asyncio.CancelledError:
+            break
+        except Exception as e:
+            logger.error("Cleanup error: %s", e, exc_info=True)
+            # Continue the loop even on error
+
 
 async def run_orchestrator_loop():
     """
     Runs the orchestrator in a never-ending loop.
     """
-    logger.info("Starting Orchestrator Loop...")
-    
-    # 1. Instantiate services
-    # We use a context manager for the client if possible to ensure session cleanup, 
-    # but since it's an infinite loop, we might want to manage the session manually 
-    # or just keep the client open.
-    # The XClient supports async context manager.
-    
-    # Initialize our simple components
-    catalogue = Catalogue()
-    article_generator = ArticleGenerator()
+    # 1. Initialize PostgreSQL pool
+    pool = await init_pool()
 
-    # Determine user from env or default
-    account = load_account("0xgorexo")
+    # 2. Build source_instance identifier: {MACHINE_ID}-{account_name}
+    account_name = os.environ.get("ACCOUNT_NAME", "").strip().strip("'\"")
+    if not account_name:
+        raise ValueError("ACCOUNT_NAME environment variable is not set")
+    machine_id = os.environ.get("MACHINE_ID", "unknown").strip().strip("'\"")
+    source_instance = f"{machine_id}-{account_name}"
+    logger.info("Starting orchestrator (instance: %s)", source_instance)
 
-    async with XClient(account) as client:
-        # 2. Instantiate Orchestrator
-        orchestrator = Orchestrator(
-            client=client, 
-            catalogue=catalogue, 
-            article_generator=article_generator
-        )
+    # 3. Initialize services
+    catalogue = Catalogue(pool=pool, source_instance=source_instance)
 
-        logger.info("Orchestrator initialized. Entering loop.")
-        
-        while True:
-            try:
-                logger.info(">>> Starting new timeline processing cycle...")
-                
-                # Fetch and process timeline
-                # process_timeline returns (df_timeline, df_additional)
-                # but it also handles the staging internally now based on your recent changes.
-                await orchestrator.process_timeline()
-                
-                logger.info("<<< cycle completed.")
-                
-                # Wait for some time before next iteration
-                wait_seconds = 30
-                logger.info(f"Sleeping for {wait_seconds} seconds...")
-                await asyncio.sleep(wait_seconds)
-                
-            except Exception as e:
-                logger.error(f"Error in orchestrator loop: {e}", exc_info=True)
-                logger.info("Waiting 120 seconds before retrying...")
-                await asyncio.sleep(120)
+    # 4. Load account credentials
+    account = load_account(account_name)
+
+    # 5. Start cleanup background task
+    cleanup_task = asyncio.create_task(cleanup_old_data(pool))
+
+    try:
+        async with XClient(account) as client:
+            orchestrator = Orchestrator(client=client, catalogue=catalogue)
+
+            while True:
+                try:
+                    await orchestrator.process_timeline()
+                    await asyncio.sleep(30)
+
+                except Exception as e:
+                    logger.error("Error in orchestrator loop: %s", e, exc_info=True)
+                    await asyncio.sleep(120)
+    finally:
+        cleanup_task.cancel()
+        try:
+            await cleanup_task
+        except asyncio.CancelledError:
+            pass
+        await close_pool()
+        logger.info("Shutdown complete.")
+
 
 def main():
     try:
         asyncio.run(run_orchestrator_loop())
     except KeyboardInterrupt:
         logger.info("Stopped by user.")
+
 
 if __name__ == "__main__":
     main()

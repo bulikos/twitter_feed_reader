@@ -4,3 +4,4 @@
     - ParseTimeline is event
     - FetchDetail is event
     - ProcessTimeline data is event.
+- All the delays should be handled inside client, not anywhere else.
