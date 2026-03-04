@@ -58,3 +58,21 @@ requests.py        Request dataclasses (RequestTimeline, RequestDetail) with Gra
 
 - `docs/KNOWLEDGE.md` -- detailed X API reverse-engineering notes (endpoints, auth, pagination, response structure).
 - `.env.example` -- all required environment variables with descriptions.
+
+## Local development
+
+Dependencies are managed with `uv`. The venv lives at `.venv/`:
+
+```bash
+uv sync                        # create / update venv
+source .venv/bin/activate      # activate (bash/zsh)
+python -m app.main             # run the app locally
+```
+
+Without activating, prefix commands with `.venv/bin/python`:
+
+```bash
+.venv/bin/python -m app.main
+.venv/bin/python app/data/analyze_delay_pg.py 30
+```
+

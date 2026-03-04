@@ -52,6 +52,14 @@ cd x_sourcer
 uv sync
 ```
 
+This creates a `.venv` directory with all dependencies. To activate it for interactive use:
+
+```bash
+source .venv/bin/activate   # bash / zsh
+# or run scripts directly:
+.venv/bin/python <script.py>
+```
+
 Copy the example env file and fill in your values:
 
 ```bash
@@ -89,8 +97,17 @@ DATABASE_URL="user:password@localhost:5432/dbname"
 
 ### Local
 
+Activate the venv first (or prefix every command with `.venv/bin/`):
+
 ```bash
+source .venv/bin/activate
 python -m app.main
+```
+
+Or without activating:
+
+```bash
+.venv/bin/python -m app.main
 ```
 
 ### Docker
