@@ -190,7 +190,6 @@ class Orchestrator:
         self.catalogue.add_entries(df_all_add_tweets)
 
         # Remember which tweets we have seen directly on timeline (not quotes, or tweets loaded in detail)
-        # Remember which tweets we have seen directly on timeline (not quotes, or tweets loaded in detail)
         main_tweets_on_timeline = df_timeline[df_timeline['tweet_source'].isin(['timeline','timeline_conversation'])][['id']].copy()
         main_tweets_on_timeline['read_id'] = 'test'
         self.article_generator.add_entries(main_tweets_on_timeline)

@@ -33,7 +33,7 @@ async def run_orchestrator_loop():
     article_generator = ArticleGenerator()
 
     # Determine user from env or default
-    account = load_account("pussy")
+    account = load_account("0xgorexo")
 
     async with XClient(account) as client:
         # 2. Instantiate Orchestrator
@@ -57,8 +57,7 @@ async def run_orchestrator_loop():
                 logger.info("<<< cycle completed.")
                 
                 # Wait for some time before next iteration
-                # Let's say 120 seconds or custom
-                wait_seconds = 120
+                wait_seconds = 30
                 logger.info(f"Sleeping for {wait_seconds} seconds...")
                 await asyncio.sleep(wait_seconds)
                 

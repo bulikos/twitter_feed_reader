@@ -1,6 +1,7 @@
 from dataclasses import dataclass, field
 from typing import Optional, Dict, Any, List
 from datetime import datetime
+import time
 
 @dataclass
 class Tweet:
@@ -9,7 +10,8 @@ class Tweet:
     author_id: str
     author_handle: str
     author_name: str
-    publish_date: int = 0
+    publish_timestamp: float = 0.0
+    received_timestamp: float = field(default_factory=time.time)
     media: List[str] = field(default_factory=list)
     reply_to_id: Optional[str] = None
     quote_tweet_id: Optional[str] = None
@@ -20,7 +22,7 @@ class Tweet:
     
     
     def pretty_print(self) -> str:
-        date_str = datetime.fromtimestamp(self.publish_date).strftime('%Y-%m-%d %H:%M:%S') if self.publish_date else "N/A"
+        date_str = datetime.fromtimestamp(self.publish_timestamp).strftime('%Y-%m-%d %H:%M:%S') if self.publish_timestamp else "N/A"
         lines = [
             f"[{self.id}] @{self.author_handle} ({self.author_name}) | {date_str}",
             f"{len(self.text)} {self.text.replace('\n', ' ')[:100]}{'...' if len(self.text) > 100 else ''}",
@@ -47,6 +49,11 @@ class Tweet:
         """Converts a list of Tweet objects to a pandas DataFrame."""
         try:
             import pandas as pd
+            from dataclasses import fields
+            if not tweets:
+                # Return empty DataFrame with correct column names
+                columns = [f.name for f in fields(Tweet)]
+                return pd.DataFrame(columns=columns)
             return pd.DataFrame([t.to_dict() for t in tweets])
         except ImportError:
             # Fallback or error logging

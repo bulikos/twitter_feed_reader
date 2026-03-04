@@ -1,6 +1,7 @@
 from typing import Dict, Any, List, Optional, Tuple
 from dataclasses import field
 import logging
+import time
 
 from ..models import Tweet
 
@@ -93,6 +94,7 @@ class ItemParser:
         Parses a tweet result and returns a list of Tweet objects.
         The list includes the main tweet and any recursively parsed tweets (retweets, quotes).
         """
+        received_ts = time.time()
         collected_tweets: List[Tweet] = []
         
         if not result: 
@@ -162,7 +164,7 @@ class ItemParser:
         
         # Metadata extraction
         created_at_str = legacy.get('created_at')
-        publish_date = self.parse_timestamp(created_at_str)
+        publish_timestamp = self.parse_timestamp(created_at_str)
         media_links = self.extract_media(legacy)
         
         # Text extraction (initially from this tweet)
@@ -231,7 +233,8 @@ class ItemParser:
             author_id=user_id,
             author_handle=user_handle,
             author_name=user_name,
-            publish_date=publish_date,
+            publish_timestamp=publish_timestamp,
+            received_timestamp=received_ts,
             media=media_links,
             reply_to_id=legacy.get('in_reply_to_status_id_str'),
             quote_tweet_id=legacy.get('quoted_status_id_str'),
