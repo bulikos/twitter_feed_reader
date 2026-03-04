@@ -1,3 +1,7 @@
+networks:
+  shared1:
+    external: true
+
 services:
   app:
     build: .
@@ -7,6 +11,8 @@ services:
       - ./app:/src/app
     env_file:
       - .env
+    networks:
+      - shared1
     environment:
       - PYTHONUNBUFFERED=1
     command: python -m app.main
