@@ -3,7 +3,8 @@ networks:
     external: true
 
 services:
-  app:
+  x_sourcer:
+    container_name: x_sourcer
     build: .
     volumes:
       # Mount the local 'app' package into the container's source root
