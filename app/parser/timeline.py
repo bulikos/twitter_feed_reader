@@ -80,6 +80,7 @@ class TimelineParser:
                 self.stats.entries_module += 1
 
                 items = entry["content"]["items"]
+                main_tweets = []
                 for item in items:
                     if item["item"]["itemContent"]["itemType"] == "TimelineTweet":
                         content = item["item"]["itemContent"]["tweet_results"]["result"]
@@ -88,6 +89,14 @@ class TimelineParser:
                         tweets.extend(mod_tweets)
                         self.stats.items_from_module += len(mod_tweets)
                         self.stats.total_items_loaded += len(mod_tweets)
+                        tweet_id = content.get("legacy", {}).get("id_str")
+                        if tweet_id:
+                            main_tweet = next((t for t in mod_tweets if t.id == tweet_id), None)
+                            if main_tweet:
+                                main_tweets.append(main_tweet)
+
+                if len(main_tweets) >= 3 and "conversation_tail" not in main_tweets[-1].tags:
+                    main_tweets[-1].tags.append("conversation_tail")
 
             # 3. Cursor
             elif entry_id.startswith("cursor-bottom-"):

@@ -22,6 +22,7 @@ class Orchestrator:
         Find tweets that need a detail API call:
         - Reply parents not present in the current batch (we need the original tweet for context)
         - Tweets tagged 'article' (detail endpoint returns full article text)
+        - Conversation tails from timeline modules (detail returns full thread context)
         """
         tweet_ids = {t.id for t in tweets}
         candidates: set[str] = set()
@@ -34,6 +35,10 @@ class Orchestrator:
 
             # Articles are truncated on timeline; detail endpoint has full text
             if "article" in t.tags:
+                candidates.add(t.id)
+
+            # Conversation tail tweet from a module of length >= 3
+            if "conversation_tail" in t.tags:
                 candidates.add(t.id)
 
         reply_count = sum(1 for t in tweets if t.reply_to_id)
