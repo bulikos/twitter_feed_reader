@@ -43,11 +43,13 @@ class Orchestrator:
 
         reply_count = sum(1 for t in tweets if t.reply_to_id)
         article_count = sum(1 for t in tweets if "article" in t.tags)
+        conversation_tail_count = sum(1 for t in tweets if "conversation_tail" in t.tags)
         logger.info(
-            "Detail candidates: %d (%d replies in batch, %d articles)",
+            "Detail candidates: %d (%d replies in batch, %d articles, %d conversation tails)",
             len(candidates),
             reply_count,
             article_count,
+            conversation_tail_count,
         )
         return candidates
 
