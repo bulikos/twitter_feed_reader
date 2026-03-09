@@ -62,7 +62,30 @@ class DetailParser:
         duration = round(time.time() - start_time, 5)
         self.stats.parse_duration_s = duration
         logger.info("DetailParser finished | Tweets: %d | Duration: %ss", len(tweets), duration)
-        return tweets
+        # Filter detail results based on focal tweet order and author.
+        # Motivation: store full reply chain leading to the focal tweet, but avoid
+        # storing later replies by other authors in the conversation.
+        focal_index = None
+        focal_author_id = None
+        for idx, tweet in enumerate(tweets):
+            if tweet.id == focal_id:
+                focal_index = idx
+                focal_author_id = tweet.author_id
+                break
+
+        if focal_index is None or not focal_author_id:
+            logger.error("Focal tweet missing or author unknown for %s", focal_id)
+            return tweets
+
+        # Keep all tweets up to the focal tweet; after that keep only same-author tweets.
+        filtered = []
+        for idx, tweet in enumerate(tweets):
+            if idx <= focal_index:
+                filtered.append(tweet)
+            elif tweet.author_id == focal_author_id:
+                filtered.append(tweet)
+
+        return filtered
 
     def _parse_entry(self, entry: dict[str, Any], focal_id: str) -> list[Tweet]:
         """
