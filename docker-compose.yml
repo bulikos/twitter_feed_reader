@@ -4,7 +4,7 @@ networks:
 
 services:
   x_sourcer:
-    container_name: x_sourcer
+    container_name: x_sourcer_${MACHINE_ID:-default}_${ACCOUNT_NAME:-default}
     build: .
     volumes:
       # Mount the local 'app' package into the container's source root
